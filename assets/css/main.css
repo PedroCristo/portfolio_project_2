@@ -459,7 +459,6 @@ span.fade {
 *       GAME END PAGE          *
 *                              *
 *******************************/
-
 #game-end {
   color: var(--white-color);
 }
@@ -493,7 +492,6 @@ span.fade {
 *        SCORES PAGE           *
 *                              *
 *******************************/
-
 #scores-page {
   color: var(--white-color);
 }
@@ -511,6 +509,25 @@ span.fade {
   color: var(--white-color);
   margin-bottom: 15px;
   font-size: 2rem;
+}
+
+/*******************************
+*                              *
+*        TROPHY PAGE           *
+*                              *
+*******************************/
+#trophy-page {
+  color: var(--white-color);
+}
+
+#trophy-page .fa-medal{
+  font-size :clamp(2.5rem, 5vw, 1.8rem);
+  margin: 25px 0;
+}
+
+#trophy-page .container .title {
+  margin: 25px 0;
+  font-size: clamp(1.8rem, 5vw, 1rem);
 }
 
 
