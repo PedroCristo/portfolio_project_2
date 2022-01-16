@@ -241,10 +241,11 @@ span.fade {
 
 /*******************************
 *                              *
-*          HOME PAGE           *
+*        LANDING PAGE          *
 *                              *
 *******************************/
 
+/* HEADER */
 
 #hero-section{
   background-position: 80%;
@@ -341,26 +342,118 @@ span.fade {
 }
 
 #menu {
-    position: absolute;
-    top: 0;
-    right: 150px;
-    width: 300px;
-    height: 100%;
-    display: flex;
-    transition: all 0.8s;
-  }
-  
-  #menu.active {
-    right: 0;
-  }
-  
-  #menu ul {
-    list-style: none;
-    position: relative;
-  }
-  
-  #menu .logo-menu .logo {
-    margin-top: 60px;
-    font-size: 1.2rem;
-  }
-  
+  position: absolute;
+  top: 0;
+  right: 150px;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  transition: all 0.8s;
+}
+
+#menu.active {
+  right: 0;
+}
+
+#menu ul {
+  list-style: none;
+  position: relative;
+}
+
+#menu .logo-menu .logo {
+  margin-top: 60px;
+  font-size: 1.2rem;
+}
+
+/*******************************
+*                              *
+*          QUIZ PAGE           *
+*                              *
+*******************************/
+#game-section {
+  color: var(--white-color);
+}
+
+#game-section .header h4 {
+  position: absolute;
+  top: 35px;
+  right: 35px;
+  font-size: clamp(1rem, 5vw, 2rem);
+}
+
+#game-section .choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.4rem;
+  background-color: var(--white-color);
+}
+
+#game-section .choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+#game-section .choice {
+  padding: 25px;
+  background: linear-gradient(
+    140deg,
+    var(--blue-light-color),
+    var(--blue-dark-color)
+  );
+  color: white;
+  margin: 0;
+}
+
+#game-section .choice-text {
+  padding: 25px;
+  width: 100%;
+  color: var(--blue-dark-color);
+}
+
+#game-section .container-questions h2 {
+  margin-bottom: 58px;
+  height: 70px;
+  font-size: clamp(1.1rem, 5vw, 2rem);
+  color: var(--white-color);
+}
+
+#game-section #scoreboard {
+  display: flex;
+  justify-content: space-between;
+}
+
+#game-section #scoreboard .scoreboard-text {
+  text-align: center;
+  font-size: clamp(1.2rem, 5vw, 1.8rem);
+}
+
+#game-section #progress-text {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+}
+
+#game-section #scoreboard .progress-bar {
+  width: 350px;
+  height: 30px;
+  border: 2px solid var(--green-color);
+  margin: 35px 0;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#game-section #scoreboard .box-score {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+#game-section #progress-bar-full {
+  height: 100%;
+  background-color: var(--green-color);
+  width: 0;
+}
+
