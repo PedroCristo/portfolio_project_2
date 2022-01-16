@@ -241,12 +241,9 @@ span.fade {
 
 /*******************************
 *                              *
-*        LANDING PAGE          *
+*           HOME PAGE          *
 *                              *
 *******************************/
-
-/* HEADER */
-
 #hero-section{
   background-position: 80%;
   position: absolute;
@@ -367,7 +364,7 @@ span.fade {
 
 /*******************************
 *                              *
-*          QUIZ PAGE           *
+*          GAME PAGE           *
 *                              *
 *******************************/
 #game-section {
@@ -456,4 +453,39 @@ span.fade {
   background-color: var(--green-color);
   width: 0;
 }
+
+/*******************************
+*                              *
+*       GAME END PAGE          *
+*                              *
+*******************************/
+
+#game-end {
+  color: var(--white-color);
+}
+#game-end .box-score {
+  margin-bottom: 50px;
+}
+
+#game-end form {
+  width: 100%;
+}
+
+#game-end form input {
+  margin-bottom: 25px;
+  width: 350px;
+  padding: 25px;
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  border-radius: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#game-end form input::placeholder {
+  color: #aaa;
+  text-align: center;
+}
+
 
