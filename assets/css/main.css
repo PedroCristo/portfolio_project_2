@@ -488,4 +488,29 @@ span.fade {
   text-align: center;
 }
 
+/*******************************
+*                              *
+*        SCORES PAGE           *
+*                              *
+*******************************/
+
+#scores-page {
+  color: var(--white-color);
+}
+
+#scores-page .highscores-box {
+  background: var(--blue-media-color);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  margin: 35px;
+  padding: 25px 50px;
+  border: 2px solid var(--white-color);
+  border-radius: 15px;
+}
+
+#scores-page ol li {
+  color: var(--white-color);
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
 
