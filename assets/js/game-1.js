@@ -154,7 +154,7 @@ getNewQuestion = () => {
 };
 
 
-/**
+ /**
    *Compare the answer chosen by the user with the right answer if true the user will see a message in green if wrong the message will be in red
    */ 
    choices.forEach(choice => {
@@ -183,6 +183,34 @@ getNewQuestion = () => {
       wrongAnswerReply = wrongAnswerReply[wrongAnswerReplyIndex];
     
   
+      if (selectedAnswer == currentQuestion.correctAnswer ) {
+       incrementScore(correctQuestion);
+       
+       if(questionCounter == maxNumberQuestions) {
+         question.innerHTML = 'YOUR ANSWER IS RIGHT, WELL DONE!';
+  
+       } else {
+         
+         question.innerHTML = rightAnswerReply;
+       }
+  
+         question.classList.add('correct-text');
+  
+      } else {
+  
+        if(questionCounter == maxNumberQuestions) {
+          question.innerHTML = 'WRONG ANSWER!';
+  
+        } else {
+          
+          question.innerHTML = wrongAnswerReply;
+        }
+        
+        question.classList.add('incorrect-text');
+      }
+  
+        selectedChoice.parentElement.classList.add(classToApply);
+    
     });
   });
   
