@@ -163,4 +163,25 @@
       font-size: 1.2rem;
     }
   }
+
+  @media screen and (max-width: 400px) {
+    /*******************************
+    *                              *
+    *          QUIZ PAGE           *
+    *                              *
+    *******************************/
+    #game-section .header h4 {
+      top: 23px;
+    }
+  
+    #game-section .container-questions .btn {
+      padding: 10px 5px;
+      width: 150px;
+    }
+  
+    #game-section #scoreboard .progress-bar {
+      width: 300px;
+      height: 25px;
+    }
+  }
   
