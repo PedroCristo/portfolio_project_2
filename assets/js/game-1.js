@@ -153,7 +153,8 @@ getNewQuestion = () => {
  
 };
 
- /**
+
+/**
    *Compare the answer chosen by the user with the right answer if true the user will see a message in green if wrong the message will be in red
    */ 
    choices.forEach(choice => {
@@ -164,8 +165,24 @@ getNewQuestion = () => {
       const selectedChoice = e.target;
       const selectedAnswer = selectedChoice.dataset['choice'];
       const classToApply =
+      selectedAnswer == currentQuestion.correctAnswer ? 'correct' : 'incorrect';
+  
+      /**
+       * Array of available right answer message reply back to the user
+       */
+      let rightAnswerReply = ['YOUR ANSWER IS RIGHT, WELL DONE!', 'RIGHT ANSWER!', 'RIGHT ANSWER, YOU ARE MASTER!'];
+      const rightAnswerReplyIndex = Math.floor(Math.random() * rightAnswerReply.length);
+      rightAnswerReply = rightAnswerReply[rightAnswerReplyIndex];
+  
+      /**
+       * Array of available wrong answer message reply back to the user 
+       */
+  
+      let wrongAnswerReply = ['WRONG ANSWER!', 'WRONG ANSWER! TRY AGAIN!', 'WRONG ANSWER! ARE YOU WELL TODAY?'];
+      const wrongAnswerReplyIndex = Math.floor(Math.random() * wrongAnswerReply.length);
+      wrongAnswerReply = wrongAnswerReply[wrongAnswerReplyIndex];
     
   
-    
     });
   });
+  
