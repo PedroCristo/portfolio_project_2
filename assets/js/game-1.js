@@ -152,3 +152,20 @@ getNewQuestion = () => {
  question.innerText = currentQuestion.question;
  
 };
+
+ /**
+   *Compare the answer chosen by the user with the right answer if true the user will see a message in green if wrong the message will be in red
+   */ 
+   choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+      if (!acceptingAnswers) return;
+  
+      acceptingAnswers = false;
+      const selectedChoice = e.target;
+      const selectedAnswer = selectedChoice.dataset['choice'];
+      const classToApply =
+    
+  
+    
+    });
+  });
