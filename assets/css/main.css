@@ -10,7 +10,7 @@
 :root {
   --blue-light-color: rgb(18, 92, 255);
   --blue-media-color: rgb(0, 10, 255);
-  --blue-dark-color: rgb(74, 10, 224);
+  --purple-light-color: rgb(74, 10, 224);
   --purple-color: rgb(30, 22, 59);
   --iterative-color: rgb(102, 214, 51);
   --white-color: rgb(255, 255, 255);
@@ -43,7 +43,7 @@ body.active {
   background-image: linear-gradient(
     280deg,
     rgba(0, 0, 0, 0.5),
-    var(--blue-dark-color)
+    var(--purple-light-color)
   ),
   url(/assets/images/quiz-bg-1.png);
 }
@@ -52,7 +52,7 @@ body.active {
   background-image: linear-gradient(
     280deg,
     rgba(0, 0, 0, 0.5),
-    var(--blue-dark-color)
+    var(--purple-light-color)
   ),
   url(/assets/images/quiz-bg-2.png);
 }
@@ -61,7 +61,7 @@ body.active {
   background-image: linear-gradient(
     280deg,
     rgba(0, 0, 0, 0.5),
-    var(--blue-dark-color)
+    var(--purple-light-color)
   ),
   url(/assets/images/quiz-bg-3.png);
 }
@@ -398,7 +398,7 @@ span.fade {
   background: linear-gradient(
     140deg,
     var(--blue-light-color),
-    var(--blue-dark-color)
+    var(--purple-light-color)
   );
   color: white;
   margin: 0;
@@ -407,7 +407,7 @@ span.fade {
 #game-section .choice-text {
   padding: 25px;
   width: 100%;
-  color: var(--blue-dark-color);
+  color: var(--purple-light-color);
 }
 
 #game-section .container-questions h2 {
