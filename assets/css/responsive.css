@@ -229,4 +229,26 @@
     }
   }
 
+  @media screen and (max-height: 425px) {
+    /*******************************
+    *                              *
+    *        GENERAL STYLES        *
+    *                              *
+    *******************************/
+    .fa-moon, 
+    .fa-sun {
+      top: 30px;
+      left: 12px;
+  }
+    /*******************************
+    *                              *
+    *        LANDING PAGE          *
+    *                              *
+    *******************************/
+  
+    #menu .logo-menu .logo {
+      margin-top: 10px;
+    }
+  }
+
   
