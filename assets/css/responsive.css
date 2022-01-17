@@ -57,4 +57,19 @@
       font-size: 0.8rem;
       margin: 10px;
     }
+
+    /*******************************
+    *                              *
+    *        SCORES PAGE           *
+    *                              *
+    *******************************/
+    #scores-page .highscores-box {
+        margin: 5px;
+        padding: 25px 50px;
+      }
+    
+      #scores-page ol li {
+        margin-bottom: 5px;
+        font-size: 1.3rem;
+      }
 }
