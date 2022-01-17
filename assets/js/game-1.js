@@ -108,3 +108,14 @@ let questions = [
   
   ];
   
+
+  
+/**
+ * Function start a new game
+ */
+newGame = () => {
+    score = 0;
+    questionCounter = 0;
+    availableQuestions = [...questions];
+    getNewQuestion();
+  };
