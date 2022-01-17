@@ -73,3 +73,50 @@
         font-size: 1.3rem;
       }
 }
+
+@media screen and (max-width: 798px) {
+    /*******************************
+    *                              *
+    *           HOME PAGE          *
+    *                              *
+    *******************************/
+    #hero-section .header {
+      padding: 40px;
+    }
+  
+    #hero-section .text h2 {
+      font-size: 3rem;
+    }
+  
+    #hero-section .text h3 {
+      font-size: 2rem;
+    }
+  
+    .text.active {
+      margin-left: 0px;
+    }
+  
+  /*******************************
+  *                              *
+  *          QUIZ PAGE           *
+  *                              *
+  *******************************/
+    #game-section .header h4 {
+      top: 23px;
+    }
+  
+    #game-section .choice-text,
+    #game-section .choice {
+      padding: 10px;
+    }
+
+    /*******************************
+    *                              *
+    *        TROPHY PAGE           *
+    *                              *
+    *******************************/
+    #trophy-page .container .title {
+      margin: 25px 0;
+      font-size: 1.3rem;
+    }
+  }
