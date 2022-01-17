@@ -120,3 +120,47 @@
       font-size: 1.3rem;
     }
   }
+
+  @media screen and (max-width: 500px) {
+    /*******************************
+    *                              *
+    *          HOME PAGE           *
+    *                              *
+    *******************************/
+  
+    #hero-section.active {
+      right: 500px;
+    }
+  
+    #hero-section .fa-times.active {
+      left: 500px;
+    }
+    
+    #menu {
+      width: 100%;
+    }
+
+    /*******************************
+    *                              *
+    *        SCORES PAGE           *
+    *                              *
+    *******************************/
+    #scores-page ol li {
+      margin-bottom: 5px;
+      font-size: 1rem;
+    }
+
+    #scores-page  .highscores-box {
+      padding: 25px 40px;
+    }
+
+    /*******************************
+    *                              *
+    *        TROPHY PAGE           *
+    *                              *
+    *******************************/
+    #trophy-page .container .title {
+      font-size: 1.2rem;
+    }
+  }
+  
