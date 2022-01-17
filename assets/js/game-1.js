@@ -21,6 +21,12 @@
  let availableQuestions = [];
 
  /**
+ * Constants with the value of correct questions points and number of max questions per quiz 
+ */
+const correctQuestion = 25;
+const maxNumberQuestions = 10;
+
+ /**
  * Quiz questions array
  */
 
@@ -117,5 +123,6 @@ newGame = () => {
     score = 0;
     questionCounter = 0;
     availableQuestions = [...questions];
-    getNewQuestion();
   };
+
+ 
