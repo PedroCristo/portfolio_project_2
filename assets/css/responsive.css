@@ -32,3 +32,29 @@
       bottom: 20px;
     }
   }
+
+  @media screen and (max-width: 920px) {
+   /*******************************
+   *                              *
+   *       GAME END PAGE          *
+   *                              *
+   *******************************/
+    #game-end .box-score {
+      padding: 10px 40px;
+    }
+    #game-end form {
+      width: 100%;
+    }
+  
+    #game-end form input {
+      width: 200px;
+      padding: 15px;
+      font-size: 1rem;
+      margin: -35px 0 5px;
+    }
+  
+    #game-end .btn {
+      font-size: 0.8rem;
+      margin: 10px;
+    }
+}
