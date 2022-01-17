@@ -184,4 +184,49 @@
       height: 25px;
     }
   }
+
+  @media screen and (max-width: 340px) {
+    /*******************************
+    *                              *
+    *          QUIZ PAGE           *
+    *                              *
+    *******************************/
+  
+    #game-section .choice-container {
+      height: 50px;
+    }
+  
+    #game-section .choice-text {
+      padding: 14px;
+    }
+  
+    #game-section .choice {
+      padding: 12px;
+    }
+  
+    #game-section #scoreboard .progress-bar {
+      width: 250px !important;
+      height: 15px !important;
+      margin: 70px 0 -5px;
+    }
+
+    #game-section .container-questions h2 {
+      margin: 15px 0 25px!important;
+    }
+  
+    #game-section #scoreboard .scoreboard-text {
+      font-size: 0.8rem !important;
+      bottom: 10px;
+    }
+    
+    #game-section #scoreboard .box-score {
+      bottom: 10px;
+    }
+
+    #game-section .btn {
+      margin-top: 5px;
+      font-size: 0.8rem;
+    }
+  }
+
   
