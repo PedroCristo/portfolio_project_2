@@ -125,4 +125,30 @@ newGame = () => {
     availableQuestions = [...questions];
   };
 
+ /**
+ * Function get a new question
+ */
+getNewQuestion = () => {
+    localStorage.setItem('lastScore', score);
+ if (availableQuestions.length === 0 || questionCounter >= maxNumberQuestions) {
+
+   /**
+    * Brings the user to the game end page after the quiz is finished
+    */
+  return window.location.assign('game-end.html');
+}
+
+ /**
+ * Shows the user the number of question is answering
+ */ 
+ questionCounter++;
+ progressText.innerText ='Question ' +  questionCounter + '/' + maxNumberQuestions;
+
+ /**
+  * Update the question to show the user after last question is answered
+  */ 
+ const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+ currentQuestion = availableQuestions[questionIndex];
+ question.innerText = currentQuestion.question;
  
+};
