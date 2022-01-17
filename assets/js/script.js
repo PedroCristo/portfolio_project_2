@@ -27,7 +27,7 @@
  const faSun = document.querySelector('.fa-sun');
  const body =  document.getElementById('body');
  
-  function changeColorBg() {
+  window.addEventListener('load', () => {
       if(th >= 8 && th <= 19) {
 
         body.classList.remove('active');
@@ -39,4 +39,4 @@
         faSun.classList.add('active');
 
       }
-  }
+  });
