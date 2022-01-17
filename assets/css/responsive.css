@@ -1,0 +1,34 @@
+  /*###############################
+  ######### MEDIA QUERIES #########
+  ###############################*/
+
+  @media screen and (min-width: 1000px) and (max-width: 1400px) {
+    /*******************************
+    *                              *
+    *          QUIZ PAGE           *
+    *                              *
+    *******************************/
+  
+    #game-section #scoreboard .progress-bar {
+      height: 25px;
+      margin: 85px 0 35px;
+    }
+  
+    #game-section .container-questions h2 {
+      margin-bottom: 15px;
+    }
+  
+    #game-section .choice-text,
+    #game-section .choice {
+      padding: 15px;
+    }
+  
+    #game-section #scoreboard .scoreboard-text {
+      bottom: 10px;
+      font-size: 1.5rem !important;
+    }
+  
+    #game-section #scoreboard .box-score {
+      bottom: 20px;
+    }
+  }
