@@ -264,5 +264,19 @@
     
   }
 
+  @media screen and (max-height:300px) {
+    /*******************************
+    *                              *
+    *           HOME PAGE          *
+    *                              *
+    *******************************/
+
+    #hero-section .social {
+      bottom: 20px;
+    }
+    
+  }
+
+
 
   
