@@ -474,4 +474,57 @@
       padding: 10px 40px;
     }
   }
+
+   /* galaxy x20 */
+   @media screen and (max-width: 915px) and (max-height: 412px) {
+    /*******************************
+    *                              *
+    *        GENERAL STYLES        *
+    *                              *
+    *******************************/
+  
+    .logo {
+      font-size: 1rem;
+    }
+  
+    /*******************************
+    *                              *
+    *          QUIZ PAGE           *
+    *                              *
+    *******************************/
+  
+    #game-section .header h4 {
+      font-size: 1rem;
+    }
+  
+    #game-section #scoreboard .progress-bar {
+      height: 20px;
+      margin: 75px 0 15px;
+    }
+  
+    #game-section .container-questions h2 {
+      font-size: 1.2rem;
+      margin-bottom: -20px;
+    }
+  
+    #game-section .choice-container {
+      height: 40px;
+    }
+  
+    #game-section .choice-text,
+    #game-section .choice {
+      padding: 10px;
+    }
+    #game-section #scoreboard .scoreboard-text {
+      left: 350px;
+      bottom: 25px;
+      font-size: 1.2rem !important;
+    }
+  
+    #game-section #scoreboard .box-score {
+      bottom: 8px;
+      padding: 10px 40px;
+    }
+  }
+  
   
