@@ -25,7 +25,7 @@
  * Show to the users the last score 
  */
  finalScore.innerText = lastScore;
- 
+
 
 /**
  * Save users username and score 
@@ -42,7 +42,7 @@
     highScores.splice(7);
 
 /**
- * Brings the user to the right page depends on the score made in the last game played
+ * Brings the user to the right page depends on the score made by the user in the last game played
  */
 
      if (lastScore == 250) {
