@@ -158,8 +158,9 @@ getNewQuestion = () => {
       const choiceNumber = choice.dataset['choice'];
       choice.innerText = currentQuestion['choice' + choiceNumber];
     });
-  
-   
+
+    availableQuestions.splice(questionIndex, 1);
+    acceptingAnswers = true;S
 };
 
 
