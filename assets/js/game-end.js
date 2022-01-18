@@ -35,4 +35,29 @@
     highScores.sort((a, b) => b.score - a.score);
     highScores.splice(7);
 
+/**
+ * Brings the user to the right page depends on the score made in the last game played
+ */
+
+     if (lastScore == 250) {
+
+        window.location.assign('/pages/trophy-gold.html');
+
+    } else if (lastScore == 225) {
+      
+        window.location.assign('/pages/trophy-silver.html');
+
+
+    } else if (lastScore == 200) {
+
+        window.location.assign('/pages/trophy-bronze.html');
+
+    } else {
+        
+        window.location.assign('/pages/scores.html');
+
+    }
+
+    localStorage.setItem('highScores', JSON.stringify(highScores));
+
 };
