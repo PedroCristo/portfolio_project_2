@@ -12,7 +12,7 @@
   --blue-media-color: rgb(0, 10, 255);
   --purple-light-color: rgb(74, 10, 224);
   --purple-color: rgb(30, 22, 59);
-  --iterative-color: rgb(102, 214, 51);
+  --interactive-color: rgb(102, 214, 51);
   --white-color: rgb(255, 255, 255);
   --green-color: rgb(11, 233, 36);
   --black-color: rgb(14, 7, 7);
@@ -73,8 +73,8 @@ body.active {
   font-size: clamp(1rem, 5vw, 2rem);
 }
 
-.iterative-color {
-  color: var(--iterative-color) !important;
+.interactive-color {
+  color: var(--interactive-color) !important;
 }
 
 .gold-color {
@@ -173,7 +173,7 @@ body.active {
   box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 114, 244, 0.6);
   transform: scale(1.03);
   transition: transform 150ms;
-  color: var(--iterative-color);
+  color: var(--interactive-color);
 }
 
 .box-score {
@@ -219,11 +219,11 @@ span {
 }
 
 span.fade {
-  color: var(--iterative-color);
+  color: var(--interactive-color);
 }
 
 .correct-text{
-  color: var(--iterative-color)!important;
+  color: var(--interactive-color)!important;
 }
 
 .incorrect-text{
@@ -231,7 +231,7 @@ span.fade {
 }
 
 .correct {
- background-color: var(--iterative-color)!important;
+ background-color: var(--interactive-color)!important;
 }
 
 .incorrect {
