@@ -204,8 +204,12 @@
  
      if (selectedAnswer == currentQuestion.correctAnswer ) {
       incrementScore(correctQuestion);
-      
-      if(questionCounter == maxNumberQuestions) {
+
+      if (questionCounter <= 2){
+
+        question.innerHTML = 'RIGHT ANSWER!';
+
+      } else if (questionCounter == maxNumberQuestions) {
         question.innerHTML = 'YOUR ANSWER IS RIGHT, WELL DONE!';
  
       } else {
@@ -217,7 +221,7 @@
  
      } else {
  
-       if(questionCounter == maxNumberQuestions) {
+       if(questionCounter == maxNumberQuestions || questionCounter <= 2) {
          question.innerHTML = 'WRONG ANSWER!';
  
        } else {
