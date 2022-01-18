@@ -213,4 +213,12 @@ getNewQuestion = () => {
     
     });
   });
+
+   /**
+  * Update and shows the user the score
+  */ 
+    incrementScore = num => {
+    score += num;
+    scoreText.innerText = score;
+};
   
