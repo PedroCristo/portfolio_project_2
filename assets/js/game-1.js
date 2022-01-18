@@ -123,6 +123,7 @@ newGame = () => {
     score = 0;
     questionCounter = 0;
     availableQuestions = [...questions];
+    getNewQuestion();
   };
 
  /**
