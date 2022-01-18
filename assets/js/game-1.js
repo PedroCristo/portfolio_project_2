@@ -230,6 +230,10 @@
  
        selectedChoice.parentElement.classList.add(classToApply);
    
+
+    /**
+     * Set the time out that user will see the reply message back after answered a question
+     */
      setTimeout(() => {
        selectedChoice.parentElement.classList.remove(classToApply);
        question.classList.remove('correct-text');
