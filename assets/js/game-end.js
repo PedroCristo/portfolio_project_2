@@ -19,3 +19,20 @@
  username.addEventListener('keyup', () => {
     saveScore.disabled = !username.value;
 });
+
+
+/**
+ * Save users username and score 
+ */
+ saveHighScore = (e) => {
+    e.preventDefault();
+
+    const score = {
+        score: lastScore,
+        name: username.value,
+    };
+    highScores.push(score);
+    highScores.sort((a, b) => b.score - a.score);
+    highScores.splice(7);
+
+};
