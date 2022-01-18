@@ -150,7 +150,16 @@ getNewQuestion = () => {
  const questionIndex = Math.floor(Math.random() * availableQuestions.length);
  currentQuestion = availableQuestions[questionIndex];
  question.innerText = currentQuestion.question;
- 
+
+    /**
+   * Update the answers to show the user after last question is answered
+   */ 
+     choices.forEach(choice => {
+      const choiceNumber = choice.dataset['choice'];
+      choice.innerText = currentQuestion['choice' + choiceNumber];
+    });
+  
+   
 };
 
 
