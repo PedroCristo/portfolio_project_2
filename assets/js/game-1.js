@@ -220,6 +220,13 @@ getNewQuestion = () => {
       }
   
         selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+          selectedChoice.parentElement.classList.remove(classToApply);
+          question.classList.remove('correct-text');
+          question.classList.remove('incorrect-text');
+          getNewQuestion();
+        }, 2000);
     
     });
   });
@@ -232,3 +239,5 @@ getNewQuestion = () => {
     scoreText.innerText = score;
 };
   
+newGame();
+
