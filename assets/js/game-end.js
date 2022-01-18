@@ -20,6 +20,11 @@
     saveScore.disabled = !username.value;
 });
 
+/**
+ * Show to the users the last score 
+ */
+ finalScore.innerText = lastScore;
+
 
 /**
  * Save users username and score 
