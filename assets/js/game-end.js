@@ -38,7 +38,7 @@
     };
     highScores.push(score);
     highScores.sort((a, b) => b.score - a.score);
-    highScores.splice(7);
+    highScores.splice(6);
 
 /**
  * Brings the user to the right page depends on the score made by the user in the last game played

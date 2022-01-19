@@ -189,7 +189,7 @@
      /**
       * Array of available right answer message reply back to the user
       */
-     let rightAnswerReply = ['YOUR ANSWER IS RIGHT! WELL DONE!', 'RIGHT ANSWER!', 'RIGHT ANSWER, YOU ARE MASTER!'];
+     let rightAnswerReply = ['YOUR ANSWER IS RIGHT! WELL DONE!', 'RIGHT ANSWER!', 'RIGHT ANSWER! YOU ARE DOING WELL!'];
      const rightAnswerReplyIndex = Math.floor(Math.random() * rightAnswerReply.length);
      rightAnswerReply = rightAnswerReply[rightAnswerReplyIndex];
  
@@ -210,7 +210,7 @@
         question.innerHTML = 'RIGHT ANSWER!';
 
       } else if (questionCounter == maxNumberQuestions) {
-        question.innerHTML = 'YOUR ANSWER IS RIGHT, WELL DONE!';
+        question.innerHTML = 'YOUR ANSWER IS RIGHT! WELL DONE!';
  
       } else {
         
