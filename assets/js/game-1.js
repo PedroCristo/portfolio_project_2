@@ -145,7 +145,7 @@
    progressText.innerText ='Question ' +  questionCounter + '/' + maxNumberQuestions;
  
    /**
-    * Update the progress bar any time the user answer a question
+    * Update the progress any time the user answer a question
     */ 
    progressBarFull.style.width = `${(questionCounter / maxNumberQuestions) * 100}%`;
  
@@ -189,7 +189,7 @@
      /**
       * Array of available right answer message reply back to the user
       */
-     let rightAnswerReply = ['YOUR ANSWER IS RIGHT, WELL DONE!', 'RIGHT ANSWER!', 'RIGHT ANSWER, YOU ARE MASTER!'];
+     let rightAnswerReply = ['YOUR ANSWER IS RIGHT! WELL DONE!', 'RIGHT ANSWER!', 'RIGHT ANSWER, YOU ARE MASTER!'];
      const rightAnswerReplyIndex = Math.floor(Math.random() * rightAnswerReply.length);
      rightAnswerReply = rightAnswerReply[rightAnswerReplyIndex];
  
@@ -255,5 +255,9 @@
    scoreText.innerText = score;
  };
  
+
+ /**
+  * Call the newGame function
+  */
  newGame();
 
