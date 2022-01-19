@@ -79,7 +79,7 @@
     *******************************/
     #scores-page .highscores-box {
         margin: 5px;
-        padding: 25px 50px;
+        padding: 15px 50px;
       }
     
       #scores-page ol li {
@@ -529,6 +529,59 @@
     #game-section .choice {
       padding: 10px;
     }
+    #game-section #scoreboard .scoreboard-text {
+      left: 350px;
+      bottom: 25px;
+      font-size: 1.2rem !important;
+    }
+  
+    #game-section #scoreboard .box-score {
+      bottom: 8px;
+      padding: 10px 40px;
+    }
+  }
+
+   /* galaxy s8 */
+   @media screen and (max-width: 740px) and (max-height: 360px) {
+    /*******************************
+    *                              *
+    *        GENERAL STYLES        *
+    *                              *
+    *******************************/
+  
+    .logo {
+      font-size: 1rem;
+    }
+  
+    /*******************************
+    *                              *
+    *          QUIZ PAGE           *
+    *                              *
+    *******************************/
+  
+    #game-section .header h4 {
+      font-size: 1rem;
+    }
+  
+    #scoreboard .progress-bar {
+      height: 20px;
+      margin: 75px 0 -10px;
+    }
+  
+    #game-section .container-questions h2 {
+      font-size: 1.1rem;
+      margin-bottom: -35px;
+    }
+  
+    #game-section .choice-container {
+      height: 40px;
+    }
+  
+    #game-section .choice-text,
+    #game-section .choice {
+      padding: 10px;
+    }
+  
     #game-section #scoreboard .scoreboard-text {
       left: 350px;
       bottom: 25px;
