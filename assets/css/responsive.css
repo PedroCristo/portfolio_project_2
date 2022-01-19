@@ -938,6 +938,36 @@
       padding: 8px 40px;
     }
   }
+
+  /* galaxy s9 */
+  @media screen and (min-width: 658px) and (max-width: 658px) and (min-height: 320px) and (max-height: 320px) {
+    /*******************************
+    *                              *
+    *          QUIZ PAGE           *
+    *                              *
+    *******************************/
+  
+    #game-section .choice-container {
+      height: 30px;
+    }
+  
+    #game-section .choice-text,
+    #game-section .choice {
+      padding: 6px;
+      font-size: 1rem;
+    }
+  
+    /*******************************
+    *                              *
+    *        SCORES PAGE           *
+    *                              *
+    *******************************/
+  
+    #scores-page .highscores-box {
+      margin: -10px;
+    }
+  }
+  
   
   
   
