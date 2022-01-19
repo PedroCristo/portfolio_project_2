@@ -47,20 +47,20 @@
 
      if (lastScore == 250) {
 
-        window.location.assign('/pages/trophy-gold.html');
+        window.location.assign('trophy-gold.html');
 
     } else if (lastScore == 225) {
       
-        window.location.assign('/pages/trophy-silver.html');
+        window.location.assign('trophy-silver.html');
 
 
     } else if (lastScore == 200) {
 
-        window.location.assign('/pages/trophy-bronze.html');
+        window.location.assign('trophy-bronze.html');
 
     } else {
         
-        window.location.assign('/pages/scores.html');
+        window.location.assign('scores.html');
 
     }
 
