@@ -9,7 +9,7 @@
  const username = document.getElementById('username');
  const finalScore = document.getElementById('final-score');
  const lastScore = localStorage.getItem('lastScore');
- const saveScore = document.getElementById('save-game');
+ const saveScore = document.getElementById('save-score');
  
  const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
