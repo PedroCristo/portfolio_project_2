@@ -650,5 +650,58 @@
       margin: 5px;
     }
   }
+
+   /* nokia N9 L70 */
+   @media screen and (max-width: 854px) and (min-width: 854px) and (max-height: 480px) and (min-height: 480px) {
+    /*******************************
+    *                              *
+    *        GENERAL STYLES        *
+    *                              *
+    *******************************/
+  
+    .logo {
+      font-size: 1rem;
+    }
+  
+    /*******************************
+    *                              *
+    *          QUIZ PAGE           *
+    *                              *
+    *******************************/
+  
+    #game-section .header h4 {
+      font-size: 1rem;
+    }
+  
+    #game-section #scoreboard .progress-bar {
+      height: 20px;
+      margin: 75px 0 15px;
+    }
+  
+    #game-section .container-questions h2 {
+      font-size: 1.1rem;
+      margin-bottom: -25px;
+    }
+  
+    #game-section .choice-container {
+      height: 40px;
+    }
+  
+    #game-section .choice-text,
+    #game-section .choice {
+      padding: 10px;
+    }
+  
+    #game-section #scoreboard .scoreboard-text {
+      left: 300px;
+      bottom: 15px;
+      font-size: 1.2rem !important;
+    }
+  
+    #game-section #scoreboard .box-score {
+      bottom: 15px;
+      padding: 8px 40px;
+    }
+  }
   
   
