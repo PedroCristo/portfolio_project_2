@@ -14,7 +14,7 @@
  const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 /**
- * Enable the button when the user writes the username in the input field
+ * Enable the button when the user remove the cursor from the input
  */
  username.addEventListener('keyup', () => {
     saveScore.disabled = !username.value;
@@ -28,7 +28,7 @@
 
 
 /**
- * Save users username and score 
+ * Save users last score and username
  */
  saveHighScore = (e) => {
     e.preventDefault();
