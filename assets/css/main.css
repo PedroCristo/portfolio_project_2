@@ -45,7 +45,7 @@ body.active {
     rgba(0, 0, 0, 0.5),
     var(--purple-light-color)
   ),
-  url(/assets/images/quiz-bg-1.png);
+  url(../assets/images/quiz-bg-1.png);
 }
 
 .quiz-bg-2 {
