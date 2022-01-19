@@ -819,6 +819,78 @@
       font-size: 0.8rem;
     }
   }
+
+  /* iphone 5S */
+  @media screen and (max-width: 568px) and (max-height: 320px) {
+    /*******************************
+    *                              *
+    *        GENERAL STYLES        *
+    *                              *
+    *******************************/
+  
+    .logo {
+      font-size: 1rem;
+    }
+  
+    /*******************************
+    *                              *
+    *          QUIZ PAGE           *
+    *                              *
+    *******************************/
+  
+    #game-section .header h4 {
+      font-size: 1rem;
+    }
+  
+    #game-section #scoreboard .progress-bar {
+      height: 20px;
+      margin: 75px 0 -5px;
+    }
+  
+    #game-section .container-questions h2 {
+        font-size: 0.8rem;
+        margin: 17px 0 -29px;
+    }
+    
+  
+    #game-section .choice-container {
+      height: 25px;
+    }
+  
+    #game-section .choice-text,
+    #game-section .choice {
+      padding: 5px;
+      font-size: 1rem;
+    }
+  
+    #game-section #scoreboard .scoreboard-text {
+      left: 220px;
+      bottom: 25px;
+      font-size: 0.8rem !important;
+    }
+  
+    #game-section #scoreboard .box-score {
+      bottom: 4px;
+      padding: 8px 40px;
+    }
+  
+    #game-section .container-questions .btn {
+      margin: 5px;
+      font-size: 0.8rem;
+      width: 150px;
+    }
+  
+    /*******************************
+    *                              *
+    *        SCORES PAGE           *
+    *                              *
+    *******************************/
+  
+    #scores-page .highscores-box {
+      margin: -10px;
+    }
+  }
+  
   
   
   
