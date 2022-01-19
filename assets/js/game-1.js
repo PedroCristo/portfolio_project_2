@@ -160,7 +160,7 @@
     * Update the answers to show the user after last question is answered
     */ 
    choices.forEach(choice => {
-     const choiceNumber = choice.dataset['choice'];
+     const choiceNumber = choice.dataset.choice;
      choice.innerText = currentQuestion['choice' + choiceNumber];
    });
  
@@ -182,7 +182,7 @@
  
      acceptingAnswers = false;
      const selectedChoice = e.target;
-     const selectedAnswer = selectedChoice.dataset['choice'];
+     const selectedAnswer = selectedChoice.dataset.choice;
      const classToApply =
      selectedAnswer == currentQuestion.correctAnswer ? 'correct' : 'incorrect';
  
