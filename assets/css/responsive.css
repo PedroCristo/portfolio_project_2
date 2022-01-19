@@ -703,5 +703,63 @@
       padding: 8px 40px;
     }
   }
+
+  /* nokia lumia 520*/
+  @media screen and (max-width: 533px) and (max-height: 320px) {
+    /*******************************
+    *                              *
+    *        GENERAL STYLES        *
+    *                              *
+    *******************************/
+  
+    .logo {
+      font-size: 1rem;
+    }
+  
+    /*******************************
+    *                              *
+    *          QUIZ PAGE           *
+    *                              *
+    *******************************/
+  
+    #game-section .header h4 {
+      font-size: 1rem;
+    }
+  
+    #game-section #scoreboard .progress-bar {
+      height: 15px !important;
+      margin: 85px 0 15px !important;
+    }
+  
+    #game-section .container-questions h2 {
+      font-size: 1.1rem;
+      margin-bottom: -20px !important;
+    }
+  
+    #game-section .choice-container {
+      height: 40px;
+    }
+  
+    #game-section .choice-text,
+    #game-section .choice {
+      padding: 10px;
+    }
+  
+    #game-section #scoreboard .scoreboard-text {
+      left: 280px;
+      bottom: 25px;
+      font-size: 1rem !important;
+    }
+  
+    #game-section #scoreboard .box-score {
+      bottom: 4px;
+      padding: 8px 40px;
+    }
+  
+    #game-section .container-questions .btn {
+      margin: 5px;
+    }
+  }
+  
   
   
