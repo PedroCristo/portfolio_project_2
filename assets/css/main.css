@@ -500,7 +500,7 @@ span.fade {
   background: var(--blue-media-color);
   box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
   margin: 35px;
-  padding: 25px 50px;
+  padding: 35px 100px;
   border: 2px solid var(--white-color);
   border-radius: 15px;
 }

@@ -31,6 +31,20 @@
     #game-section #scoreboard .box-score {
       bottom: 20px;
     }
+
+    /*******************************
+    *                              *
+    *        SCORES PAGE           *
+    *                              *
+    *******************************/
+    #scores-page .highscores-box {
+      margin:15px 0;
+    }
+  
+    #scores-page ol li {
+      margin-bottom: 5px;
+      font-size: 1.7rem;
+    }
   }
 
   @media screen and (max-width: 920px) {
