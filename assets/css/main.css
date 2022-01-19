@@ -189,7 +189,7 @@ body.active {
 }
 
 .title {
-  font-size: clamp(1.3rem, 5vw, 1.5rem);
+  font-size: clamp(1.3rem, 5vw, 1.8rem);
   text-align: center;
   padding: 15px;
   color: var(--white-color);
