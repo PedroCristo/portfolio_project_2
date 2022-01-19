@@ -407,6 +407,8 @@ span.fade {
 #game-section .choice-text {
   padding: 25px;
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
   width: 100%;
   color: var(--purple-light-color);
 }
