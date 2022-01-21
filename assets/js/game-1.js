@@ -7,7 +7,6 @@
 /**
  * Declare const and variables for DOM elements 
  */
-
  const question = document.getElementById('question');
  const choices = Array.from(document.getElementsByClassName('choice-text'));
  const progressText = document.getElementById('progress-text');
@@ -29,7 +28,6 @@
  /**
   * Quiz questions array
   */
- 
  let questions = [
    {
      question: 'On June 3, 2016, this heavyweight boxer, known as “the Greatest,” died at age 74.',
