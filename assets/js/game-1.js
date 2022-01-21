@@ -40,12 +40,12 @@
      correctAnswer: 3
    },
    {
-     question: 'In Australian football, what is the maximum number of players allowed on the field at a time?',
-     choice1: '28',
-     choice2: '14',
-     choice3: '40',
-     choice4: '36',
-     correctAnswer: 4
+     question: 'Which of the following sports is not part of the triathlon?',
+     choice1: 'Cycling',
+     choice2: 'Swimming',
+     choice3: 'Horse Riding',
+     choice4: 'Running',
+     correctAnswer: 3
    },
    {
      question: 'Where can you find arnis being widely practiced?',
@@ -64,11 +64,11 @@
      correctAnswer: 3
    },
      {
-     question: 'Who ran the first four-minute mile?',
-     choice1: 'Banastre Tarleton',
-     choice2: 'Roger Bannister',
-     choice3: 'Roger Ramjet',
-     choice4: 'Roger Moore',
+     question: 'Who won the 2017 Formula One World Drivers Championship?',
+     choice1: 'Sebastian Vettel',
+     choice2: 'Lewis Hamilton',
+     choice3: 'Nico Rosberg',
+     choice4: 'Max Verstappen',
      correctAnswer: 2
    },
    {
