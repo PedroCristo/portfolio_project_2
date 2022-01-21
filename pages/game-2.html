@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quiz Land - Play your online quiz">
+    <meta name="keywords" content="Games, Quiz, Sports, history">
+
+    <!-- WEBSITE TITLE -->
+    <title>QUIZ GAME</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="../assets/images/favicon1.png">
+
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+
+<body>
+    <!-- PLAY GAME SECTION -->
+    <section id="game-section" class="main-bg quiz-bg-2">
+        <div class="header">
+            <h3 class="logo">Quiz<span class="interactive-color">Land</span></h3> 
+            <h4 class="text-left">Quiz 1</h4>
+        </div>
+        <div class="container">
+            <div id="game" class="justify-center flex-column">
+                <div id="scoreboard">
+                    <div>
+                        <div id="progress-text" class="scoreboard-text">
+                            Question
+                        </div>
+                        <div class="progress-bar">
+                            <div id="progress-bar-full"></div>
+                        </div>
+                    </div>
+                    <div class="box-score">
+                        <p class="scoreboard-text">
+                            Score
+                        </p>
+                        <p class="scoreboard-text" id="score">
+                            0
+                        </p>
+                    </div>
+                </div>
+                <div class="container-questions">
+                    <h2 id="question" class="text-center">Question</h2>
+                    <div class="choice-container">
+                        <p class="choice">A</p>
+                        <p class="choice-text" data-choice="1"></p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice">B</p>
+                        <p class="choice-text" data-choice="2"></p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice">C</p>
+                        <p class="choice-text" data-choice="3"></p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice">D</p>
+                        <p class="choice-text" data-choice="4"></p>
+                    </div>
+                    <div class="center">
+                        <a href="../index.html" class="btn" aria-label="Go to the home page"><i class="fas fa-arrow-left"></i> Go Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF PLAY GAME SECTION -->
+
+    <!-- MAIN JS -->
+    <script src="../assets/js/game-2.js"></script>
+
+</body>
+</html>
