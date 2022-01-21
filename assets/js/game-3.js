@@ -89,12 +89,12 @@
      correctAnswer: 3
    },
    {
-     question: 'In which country do the Ashanti live?',
-     choice1: 'Algeria',
-     choice2: 'Egypt',
-     choice3: 'Ghana',
-     choice4: 'Australia',
-     correctAnswer: 3
+     question: 'Indonesia is part of which continent?',
+     choice1: 'Africa',
+     choice2: 'Asia',
+     choice3: 'Europe',
+     choice4: 'America',
+     correctAnswer: 2
    },
    {
      question: 'In which country are the Southern Alps?',
