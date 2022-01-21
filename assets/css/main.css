@@ -157,7 +157,7 @@ body.active {
   color: var(--white-color);
   text-transform: uppercase;
   text-align: center;
-  font-size: clamp(0.5rem, 5vw, 1rem);
+  font-size: clamp(0.5rem, 5vw, 0.9rem);
   letter-spacing: 2px;
   font-weight: 700;
   transition: 0.5s;
@@ -360,6 +360,10 @@ span.fade {
 #menu .logo-menu .logo {
   margin-top: 60px;
   font-size: 1.2rem;
+}
+
+#menu .btn {
+  width: 225px;
 }
 
 /*******************************
