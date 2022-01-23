@@ -1,6 +1,6 @@
 
 
-    const QUESTIONS_ARRAY = {
+    export const QUESTIONS_ARRAY = {
         'sports': [
                  {
                       question: 'On June 3, 2016, this heavyweight boxer, known as “the Greatest,” died at age 74.',

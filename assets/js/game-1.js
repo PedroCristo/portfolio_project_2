@@ -18,6 +18,7 @@
  let score = 0;
  let questionCounter = 0;
  let availableQuestions = [];
+ let time = 2000;
  
  /**
   * Constants with the value of correct questions points and number of max questions per quiz 
@@ -25,9 +26,9 @@
  const correctQuestion = 25;
  const maxNumberQuestions = 10;
  
- /**
-  * Quiz questions array
-  */
+ 
+// Quiz questions array
+  
  let questions = [
    {
      question: 'On June 3, 2016, this heavyweight boxer, known as “the Greatest,” died at age 74.',
@@ -240,7 +241,7 @@
        question.classList.remove('correct-text');
        question.classList.remove('incorrect-text');
        getNewQuestion();
-     }, 2000);
+     }, time);
    });
  });
  

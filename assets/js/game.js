@@ -1,9 +1,8 @@
 
 /*******************************
- ********** GAME 1 *************
+ ********** GAME *************
  *******************************/
-
-
+import { QUESTIONS_ARRAY } from './arrays.js';
 //Declare const and variables for DOM elements 
  
  const question = document.getElementById('question');
@@ -17,6 +16,7 @@
  let score = 0;
  let questionCounter = 0;
  let availableQuestions = [];
+ let time = 2000;
  
  
 //Constants with the value of correct questions points and number of max questions per quiz 
@@ -28,7 +28,7 @@
  
 // Start a new game
   
-  newGame = (category) => {
+  function newGame (category) {
     score = 0;
     questionCounter = 0;
     quizQuestions = QUESTIONS_ARRAY[category];
@@ -36,11 +36,11 @@
     maxNumberQuestions = quizQuestions.length;
     getNewQuestion();
   };
-console.log(QUESTIONS_ARRAY)
+console.log(newGame)
  
 // Get a new question
   
-getNewQuestion = () => {
+function getNewQuestion() {
       localStorage.setItem('lastScore', score);
    if (availableQuestions.length === 0 || questionCounter >= maxNumberQuestions) {
  
@@ -155,14 +155,14 @@ getNewQuestion = () => {
        question.classList.remove('correct-text');
        question.classList.remove('incorrect-text');
        getNewQuestion();
-     }, 2000);
+     }, time);
    });
  });
  
   
    // Update and shows the user the score
  
- incrementScore = num => {
+ function incrementScore(num){
    score += num;
    scoreText.innerText = score;
  };
