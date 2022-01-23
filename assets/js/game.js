@@ -32,7 +32,7 @@ import { QUESTIONS_ARRAY } from './arrays.js';
   function newGame (category) {
     score = 0;
     questionCounter = 0;
-    quizQuestions = QUESTIONS_ARRAY['sports'];
+    quizQuestions = QUESTIONS_ARRAY[category];
     availableQuestions = [...quizQuestions];
     maxNumberQuestions = quizQuestions.length;
     getNewQuestion();
