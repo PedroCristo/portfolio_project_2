@@ -16,6 +16,7 @@ import { QUESTIONS_ARRAY } from './arrays.js';
  let score = 0;
  let questionCounter = 0;
  let availableQuestions = [];
+ let quizQuestions = [];
  let time = 2000;
  
  
@@ -31,12 +32,12 @@ import { QUESTIONS_ARRAY } from './arrays.js';
   function newGame (category) {
     score = 0;
     questionCounter = 0;
-    quizQuestions = QUESTIONS_ARRAY[category];
+    quizQuestions = QUESTIONS_ARRAY['sports'];
     availableQuestions = [...quizQuestions];
     maxNumberQuestions = quizQuestions.length;
     getNewQuestion();
   };
-console.log(newGame)
+console.log(quizQuestions )
  
 // Get a new question
   
