@@ -1,6 +1,6 @@
-/**
- * Toggler menu
- */ 
+
+// Toggler menu
+
  const menuToggle = document.querySelector('.toggler');
  const heroSection = document.querySelector('.hero-section');
  const openMenu = document.querySelector('.fa');
@@ -18,9 +18,9 @@
  });
 
 
-/**
- * Change background color (onload) menu day/night mode
- */
+
+// Change background color (onload) menu day/night mode
+
  const dt = new Date();
  const th = dt.getHours();
  const faMoon = document.querySelector('.fa-moon');
