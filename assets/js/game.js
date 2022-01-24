@@ -2,7 +2,6 @@
 /*******************************
  ********** GAME *************
  *******************************/
-import { QUESTIONS_ARRAY } from './arrays.js';
 //Declare const and variables for DOM elements 
  
  const question = document.getElementById('question');
@@ -26,18 +25,15 @@ import { QUESTIONS_ARRAY } from './arrays.js';
  const maxNumberQuestions = 10;
  
 
- 
 // Start a new game
   
-  function newGame (category) {
+  function newGame(category) {
     score = 0;
     questionCounter = 0;
     quizQuestions = QUESTIONS_ARRAY[category];
     availableQuestions = [...quizQuestions];
-    maxNumberQuestions = quizQuestions.length;
     getNewQuestion();
   };
-console.log(quizQuestions )
  
 // Get a new question
   
@@ -80,10 +76,7 @@ function getNewQuestion() {
    availableQuestions.splice(questionIndex, 1);
    acceptingAnswers = true;
 
-    
-    // Update the progress bar any time the user answer a question
-   
-   progressBarFull.style.width = `${(questionCounter / maxNumberQuestions) * 100}%`;
+  
  };
  
    
@@ -172,4 +165,8 @@ function getNewQuestion() {
  
  // Call the newGame function
   
-//  newGame();
+ document.addEventListener("DOMContentLoaded", () => {
+
+   const quizCategory = document.getElementById('category').dataset.category;
+   newGame(quizCategory);
+ })
