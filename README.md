@@ -59,6 +59,10 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
   - [Deployment of This Project](#deployment-of-this-project)
   - [Forking This Project](#forking-this-project)
   - [Cloning This Project](#cloning-this-project)
+  - [Credits](#credits)
+    - [Information Sources/Resources](#information-sourcesresources)
+  - [Content](#content)
+  - [Special Thanks](#special-thanks)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -387,4 +391,25 @@ The website development was created in the "main" branch. This branch was deploy
 6. Change the current working directory to the location that you want the cloned directory.
 7. Type 'git clone' and paste the URL copied in step 3.
 8. Press 'Enter' and the project is cloned.
+
+## Credits
+
+### Information Sources/Resources
+
+* [W3Schools](https://www.w3schools.com/)
+
+* [Stack Overflow](https://stackoverflow.com/)
+  
+* The JavaScript code for the Fancy Text Animation used in the Homepage was taken from the following tutorial:<br>[Dev ED](https://www.youtube.com/watch?v=GUEB9FogoP8)
+
+## Content
+
+* All the questions provided in the game were taken from 2 online quizzes.
+* [Lovatts & Puzzles](https://lovattspuzzles.com/).
+* [Britannica Quiz](https://www.britannica.com/).
+
+  
+## Special Thanks
+
+ * Special thanks to my mentor Sandeep Aggarwal, Slack Community, Dave Horrocks and Mairéad Gillic for their assistance throughout this project.
 
