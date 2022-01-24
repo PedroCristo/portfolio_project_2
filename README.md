@@ -57,6 +57,8 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
     - [Text Overlaping Mobile Devices](#text-overlaping-mobile-devices)
     - [Fix Bug](#fix-bug)
   - [Deployment of This Project](#deployment-of-this-project)
+  - [Forking This Project](#forking-this-project)
+  - [Cloning This Project](#cloning-this-project)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -353,4 +355,36 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 ## Deployment of This Project
 
 The website development was created in the "main" branch. This branch was deployed using GitHub Pages.
+
+* This site was deployed by completing the following steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be deployed.
+3. Navigate to the "Settings".
+4. Navigate down to the "GitHub Pages".
+5. Click on "Check it out here!".
+6. Select the "main" branch and select "Save".
+7. The link to the live website was ready on the top.
+
+## Forking This Project
+
+* Fork this project following the steps:
+-
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be forked.
+3. Find the 'Fork' button at the top right of the page.
+4. Once you click the button the fork will be in your repository..
+
+## Cloning This Project
+
+* Clone this project following the steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be cloned.
+3. You will be provided with three options to choose from, HTTPS, SSH or GitHub CLI, click the clipboard icon in order to copy the URL.
+4. Once you click the button the fork will be in your repository.
+5. Open a new terminal.
+6. Change the current working directory to the location that you want the cloned directory.
+7. Type 'git clone' and paste the URL copied in step 3.
+8. Press 'Enter' and the project is cloned.
 
