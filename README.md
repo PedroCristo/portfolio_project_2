@@ -374,7 +374,6 @@ The website development was created in the "main" branch. This branch was deploy
 
 ## Forking This Project
 * Fork this project following the steps:
-
 1. Open [GitHub](https://github.com/).
 2. Click on the project to be forked.
 3. Find the 'Fork' button at the top right of the page.
