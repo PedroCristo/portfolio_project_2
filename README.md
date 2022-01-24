@@ -87,7 +87,7 @@ The Quiz Land is a nine page website that has been designed to look like an appl
 * High Scores <br>
 
 #### Colour Scheme
- ![Color Scheme](./assets/images/readme/color-pallete.png)<br>
+ ![Color Scheme](./assets/images/readme/color-scheme-pallete.png)<br>
  The main colour scheme I chose for this project is an overall blue tone and purple with a darker colour for maximum user accessibility. I have choosen a green color as an interactive-color to contrast with the background.
 
  #### Typography
