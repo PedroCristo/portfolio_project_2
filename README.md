@@ -7,6 +7,8 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
 
 [Live Project Here](https://pedrocristo.github.io/portfolio_project_1/index.html)
 
+<p align="center"><img src="./assets/images/readme/quiz-land-responsiveness.png" alt="Quiz Land webpage on multiple devices"></p>
+
 ## README Table Content
 
 - [Quiz Land - Game](#quiz-land---game)
@@ -371,9 +373,8 @@ The website development was created in the "main" branch. This branch was deploy
 7. The link to the live website was ready on the top.
 
 ## Forking This Project
-
 * Fork this project following the steps:
--
+
 1. Open [GitHub](https://github.com/).
 2. Click on the project to be forked.
 3. Find the 'Fork' button at the top right of the page.
