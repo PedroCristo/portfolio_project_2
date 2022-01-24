@@ -52,6 +52,7 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
       - [Results:](#results-1)
     - [Jshint](#jshint)
     - [Lighthouse](#lighthouse)
+  - [Functionality](#functionality)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -326,4 +327,13 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 * Mobile Results:
 
   ![Lighthouse Mobile Result](./assets/images/readme/lighthouse_mobile_result.jpg).
+
+  ## Functionality
+* All links have been hovered and clicked to ensure accessibility.
+* Pages all load correctly on all device screen sizes.
+* All social media links work correctly and open a new tab.
+* All the buttons are working correctly and bring the users to the function that they were built for.
+* The game is working correctly the question comes at the right time and it gives a reply back to the user when answered. 
+* The score has no issues and it increases by 25 points any time the user gives a right anwser. 
+* The progress bar and question counter have also no issues, the background color increases (from 0% to 100%) and the number of questions also increases any time the user chooses an anwser.
 
