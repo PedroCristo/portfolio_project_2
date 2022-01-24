@@ -233,6 +233,7 @@ On the top right the users can check at any time what quiz they are on [6].
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ### [W3C Markup Validator](https://validator.w3.org)
+* All HTML files were validated through the W3C Validator, presenting no errors.
 #### Results:
 * [HomePage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Findex.html)
 * [Game 1](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Fgame-1.html)
@@ -246,13 +247,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   
 
 ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator) 
+* The CSS file was validated though the Jigsaw W3C Validator, presenting no errors.
 #### Results:
 * [Main CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fassets%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 * [Responsive CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fassets%2Fcss%2Fresponsive.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### [Jshint](https://jshint.com/)
+* All JavaScript files were validated through JSHint, presenting no errors.
 
-![Jshint Result](./assets/images/readme/jshint_result.jpg).
+![Jshint Result](./assets/images/readme/jshint_result.jpg)
+
   
 
 The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the Huawei P20.
