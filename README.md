@@ -45,6 +45,13 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
   - [Technologies Used](#technologies-used)
     - [Languages Used](#languages-used)
     - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
+  - [Testing](#testing)
+    - [W3C Markup Validator](#w3c-markup-validator)
+      - [Results:](#results)
+    - [W3C CSS Validator](#w3c-css-validator)
+      - [Results:](#results-1)
+    - [Jshint](#jshint)
+    - [Lighthouse](#lighthouse)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -251,4 +258,72 @@ On the top right the users can check at any time what quiz they are on [6].
     * PIXLR was used to create, modify and resize all images on this website.
 * [Canva](https://www)
    * Canva was used to create wireframe, the 3 background images and also the Favicon.
+
+  
+## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+### [W3C Markup Validator](https://validator.w3.org)
+#### Results:
+* [HomePage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Findex.html)
+* [Game 1](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Fgame-1.html)
+* [Game 2](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Fgame-2.html)
+* [Game 3](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Fgame-3.html)
+* [Game End](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Fgame-end.html)
+* [Trophy Gold](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Ftrophy-gold.html)
+* [Trophy Silver](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Ftrophy-silver.html)
+* [Trophy Bronze](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Ftrophy-bronze.html)
+* [High Scores](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Fscores.html)
+  
+
+### [W3C CSS Validator](https://jigsaw.w3.org/css-validator) 
+#### Results:
+* [Main CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fassets%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+* [Responsive CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fassets%2Fcss%2Fresponsive.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### [Jshint](https://jshint.com/)
+
+![Jshint Result](./assets/images/readme/jshint_result.jpg).
+  
+
+The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the Huawei P20.
+
+* Responsive on all device sizes between 320px - 2600px wide
+
+* Devices tested using the Google Developer Tools emulator
+
+    * BlackBerry Z30 (360px x 640px)  
+    * BlackBerry PlayBook (600px x 1024px)  
+    * Samsung Galaxy Note 3 (360px x 640px) 
+    * Samsung Galaxy S3 (360px x 640px) 
+    * Samsung Galaxy S8 (360px x 740px)   
+    * Samsung Galaxy S9+(320px x 658px) 
+    * Samsung Galaxy Tab S4(712px x 1138px) 
+    * LG Optimus L70 (384px x 640px)
+    * Microsoft Lumia 550 (640px x 360px) 
+    * Microsoft Lumia 950 (360px x 640px) 
+    * Motorola G4 (360px x 640px)
+    * Nexus 4 (384px x 640px) 
+    * Nokia Lumia 520 (320px x 533px) 
+    * Nokia N9 (480px x 854px) 
+    * Pixel 3 (393px x 786px)
+    * Apple iPad Mini (468px x 4024)
+    * Apple iPhone 4 (320px x 480px)
+    * Apple iPhone 5/S (320px 568px)
+    * Apple iPhone 6/7/8 (375px x 667px)
+    * Apple iPhone 6/7/8 Plus (414px x 736px)
+    * Apple iPhone X (375px x 812px)
+  
+### Lighthouse 
+
+ Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices. 
+
+* Desktop Results:
+
+  ![Lighthouse Destop Result](./assets/images/readme/lighthouse_desktop_result.jpg).
+
+* Mobile Results:
+
+  ![Lighthouse Mobile Result](./assets/images/readme/lighthouse_mobile_result.jpg).
 
