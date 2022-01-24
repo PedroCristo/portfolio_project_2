@@ -53,6 +53,10 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
     - [Jshint](#jshint)
     - [Lighthouse](#lighthouse)
   - [Functionality](#functionality)
+  - [Bugs](#bugs)
+    - [Text Overlaping Mobile Devices](#text-overlaping-mobile-devices)
+    - [Fix Bug](#fix-bug)
+  - [Deployment of This Project](#deployment-of-this-project)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -336,4 +340,17 @@ The testing was done using the Google Chrome Browser. Chrome Developer Tools was
 * The game is working correctly the question comes at the right time and it gives a reply back to the user when answered. 
 * The score has no issues and it increases by 25 points any time the user gives a right anwser. 
 * The progress bar and question counter have also no issues, the background color increases (from 0% to 100%) and the number of questions also increases any time the user chooses an anwser.
+
+## Bugs 
+### Text Overlaping Mobile Devices
+![Text Overlaping Mobile Devices](./assets/images/readme/quiz-land-mobile-issue.jpeg)
+* I had this issue with my project when I built the layout for the Quiz Page as they are many elements in the same page.<br>
+
+### Fix Bug
+![Fix Bug](./assets/images/readme/quiz-land-bug-mobile-fixed.png)
+* I had to add media queries for portrait and landscape to avoid this issue happening.<br>
+
+## Deployment of This Project
+
+The website development was created in the "main" branch. This branch was deployed using GitHub Pages.
 
