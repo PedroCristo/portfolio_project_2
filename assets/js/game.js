@@ -2,8 +2,9 @@
 /*******************************
  ********** GAME *************
  *******************************/
-//Declare const and variables for DOM elements 
- 
+
+// Declare const and variables for DOM elements 
+
  const question = document.getElementById('question');
  const choices = Array.from(document.getElementsByClassName('choice-text'));
  const progressText = document.getElementById('progress-text');
@@ -19,7 +20,7 @@
  let time = 2000;
  
  
-//Constants with the value of correct questions points and number of max questions per quiz 
+// Constants with the value of correct questions points and number of max questions per quiz 
   
  const correctQuestion = 25;
  const maxNumberQuestions = 10;
@@ -76,7 +77,6 @@ function getNewQuestion() {
    availableQuestions.splice(questionIndex, 1);
    acceptingAnswers = true;
 
-  
  };
  
    
