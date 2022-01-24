@@ -39,6 +39,9 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
     - [High Scores Page](#high-scores-page)
   - [Future Features](#future-features)
     - [Progress Bar Right/Wrong Answers](#progress-bar-rightwrong-answers)
+  - [How To Play](#how-to-play)
+      - [Right Answer](#right-answer)
+      - [Wrong Answer](#wrong-answer)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -203,4 +206,19 @@ The topic questions in Quiz 1 are Sports. <br>
 ### Progress Bar Right/Wrong Answers
 
 * I am planning to add a feature with two progress bars.  One progress bar to show the number of right answers and the other to show the number of wrong answers in the last game played.
+
+## How To Play
+![How To Play](./assets/images/readme/quiz-page-how-play.png)
+* The player has 3 different quizzes in the game. For each quiz the user will see the question on the top center [2] and 4 choices [3] are available.
+The player then has to choose one of the choices and if the answer is right will win 25 points. The score will be displayed on the bottom right[5]. 
+While the game is going on, users can see the progress bar updating any time they answer a question [1] and the question counter will also update on the bottom left [4] .
+On the top right the users can check at any time what quiz they are on [6].
+
+#### Right Answer
+![Right Answer](./assets/images/readme/quiz-land-right-answer.png)
+* When the user answers the question right the message "Right Answer" will appear on the top center [7] and the background color of their choice answer will turn green [8].
+
+#### Wrong Answer
+![Wrong Answer](./assets/images/readme/quiz-land-wrong-answer.png)
+* When the user answers the question wrong the message "Wrong Answer" will appear on the top center [9] and the background color of their choice answer will turn red [10].
 
