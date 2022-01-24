@@ -42,6 +42,9 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
   - [How To Play](#how-to-play)
       - [Right Answer](#right-answer)
       - [Wrong Answer](#wrong-answer)
+  - [Technologies Used](#technologies-used)
+    - [Languages Used](#languages-used)
+    - [Frameworks - Libraries - Programs Used](#frameworks---libraries---programs-used)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -221,4 +224,31 @@ On the top right the users can check at any time what quiz they are on [6].
 #### Wrong Answer
 ![Wrong Answer](./assets/images/readme/quiz-land-wrong-answer.png)
 * When the user answers the question wrong the message "Wrong Answer" will appear on the top center [9] and the background color of their choice answer will turn red [10].
+
+## Technologies Used
+
+### Languages Used 
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [javaScript](https://www.javascript.com/)
+
+### Frameworks - Libraries - Programs Used
+
+* [Google Fonts](https://fonts.google.com/)
+   * Google fonts were used to import the 'Roboto' font throughout the style.css.
+* [Font Awesome](https://fontawesome.com/)
+    * Font Awesome are used as an icons for user UX purposes.
+* [Git](https://git-scm.com/)
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub](https://github.com/)
+    * GitHub is used to store the project's code after being pushed from Git.
+* [VSCode](https://code.visualstudio.com/)
+    * VSCode was used to create and edit the website.
+* [Mobile Simulator](https://chrome.google.com/webstore/detail/mobile-simulator-responsi/ckejmhbmlajgoklhgbapkiccekfoccmk)
+    * Mobile Simulater was used to test the website on a mobile device.
+* [PIXLR](https://pixlr.com/pt/)
+    * PIXLR was used to create, modify and resize all images on this website.
+* [Canva](https://www)
+   * Canva was used to create wireframe, the 3 background images and also the Favicon.
 
