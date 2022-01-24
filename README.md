@@ -9,15 +9,13 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
 
 ## README Table Content
 
-* [Introduction](#introduction)
-* [User Experience UX](#user-experience---UX)
-* [Design](#Design)
-    * [Wireframe](#Wireframe)
-    * [Website Structure](#website-structure)
-    * [Colour Scheme](#colour-scheme)
-    * [Imagery](#Imagery)
-    * [Typography](#typography)
-    * [interactive Links](#interactive-links) 
+- [Quiz Land - Game](#quiz-land---game)
+- [Introduction](#introduction)
+  - [README Table Content](#readme-table-content)
+  - [User Experience - UX](#user-experience---ux)
+    - [User Stories](#user-stories)
+  - [Design](#design)
+    - [Wireframe](#wireframe)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -66,3 +64,7 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
 3. Be able to challenge myself and improve on my scores.
    
 ## Design
+
+### Wireframe
+In this project I decided to build a prototype using the tool Canva before starting work on the code. It was helpful from an UX perspective as I could display the different elements in the screen and work with them with the objective of building an application that would be easily used by the users.<br>
+[Live Project Wireframe Here](https://cutt.ly/oIkZsAW)
