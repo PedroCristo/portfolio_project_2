@@ -18,6 +18,7 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
     - [Wireframe](#wireframe)
     - [Website Structure](#website-structure)
       - [Pages:](#pages)
+      - [Colour Scheme](#colour-scheme)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -83,3 +84,7 @@ The Quiz Land is a nine page website that has been designed to look like an appl
 * Trophy Silver
 * Trophy Bronze
 * High Scores <br>
+
+#### Colour Scheme
+ ![Color Scheme](./assets/images/readme/color-pallete.png)<br>
+ The main colour scheme I chose for this project is an overall blue tone and purple with a darker colour for maximum user accessibility. I have choosen a green color as an interactive-color to contrast with the background.
