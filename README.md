@@ -23,6 +23,22 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
       - [Imagery](#imagery)
     - [Interactive Links](#interactive-links)
   - [Features](#features)
+    - [Home Page](#home-page)
+    - [Navigation Menu](#navigation-menu)
+      - [Side Navigation Menu Desktop](#side-navigation-menu-desktop)
+      - [Side Navigation Menu Tablet](#side-navigation-menu-tablet)
+      - [Navigation Menu Mobile](#navigation-menu-mobile)
+      - [Navigation Menu Day/Night Mode](#navigation-menu-daynight-mode)
+    - [Quiz Game 1 - Sports](#quiz-game-1---sports)
+    - [Quiz Game 2 - History](#quiz-game-2---history)
+    - [Quiz Game 3 - Geography](#quiz-game-3---geography)
+    - [Game End Page](#game-end-page)
+    - [Trophy Gold Page](#trophy-gold-page)
+    - [Trophy Silver Page](#trophy-silver-page)
+    - [Trophy Bronze Page](#trophy-bronze-page)
+    - [High Scores Page](#high-scores-page)
+  - [Future Features](#future-features)
+    - [Progress Bar Right/Wrong Answers](#progress-bar-rightwrong-answers)
   
 * [Features](#features)  
     * [Home Page](#home-page) 
@@ -104,4 +120,87 @@ The Quiz Land is a nine page website that has been designed to look like an appl
 * At the bottom of the Home page, users can access the game's social media links (Facebook and Instagram). Once these icons are clicked they open a new tab. 
   
 ## Features
+
+### Home Page 
+
+![Home Page](./assets/images/readme/home-page.png)
+
+* When the users reach the website, they are instantly greeted on the Homepage and they have access to the button to start playing immmediately. Also there is a sidebar opening by pressing the hamburger icon on the top right, here users can start to play but they can also choose a different quiz or just check the High Scores board. On the bottom right side the players can access the game's official social media pages.<br>
+[Live Page Here](https://pedrocristo.github.io/portfolio_project_2/index.html)
+
+### Navigation Menu
+
+#### Side Navigation Menu Desktop
+![Side Navigation Menu](./assets/images/readme/desktop-side-menu.png)
+* At the top right of the website, users can find a hamburger menu that is fully responsive in all devices. In this navigation menu users can navigate to the different quizzes and also check the High Scores board.<br>
+* 
+  #### Side Navigation Menu Tablet
+![Side Navigation Menu Tablet](./assets/images/readme/tablet-side-menu.png)<br>
+
+  #### Navigation Menu Mobile
+![Side Navigation Menu mobile](./assets/images/readme/mobile-side-menu.png)
+
+  #### Navigation Menu Day/Night Mode
+![Side Navigation Day/Night Mode](./assets/images/readme/menu-day-night-mode.png)
+  * Menu Day/Night Mode. From 8am to 8pm users can access the navigation menu when open in day mode (background-color white), from 8pm to 8am users can access the same menu in night mode (background-color black).
+
+### Quiz Game 1 - Sports
+
+![Quiz Game 1](./assets/images/readme/quiz-page.png)
+* All of the game happens in this feature. Here the users will see the questions and they have 4 choices as their answer. The player will choose one and will see if the answer given is right or wrong. 
+The topic questions in Quiz 1 are Sports. <br>
+[Live Page Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-1.html)
+
+### Quiz Game 2 - History
+
+![Quiz Game 2](./assets/images/readme/quiz-page.png)
+* This feature has the same purpose as Quiz 1 but here the topic questions are History. <br>
+[Live Page Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-2.html)
+
+### Quiz Game 3 - Geography
+
+![Quiz Game 3](./assets/images/readme/quiz-page.png)
+* This feature has the same purpose as Quiz 1 and Quiz 2 but here the topic questions are Georaphy. <br>
+[Live Page Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-3.html)
+
+### Game End Page
+
+![Game End Page](./assets/images/readme/game-end-page.png)
+
+* Game End feature is the page that users go after a quiz is finished. Here the players can see the last score and save their usernames.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-end.html)
+
+### Trophy Gold Page
+
+![Trophy Gold Page](./assets/images/readme/trophy-gold-page.png)
+
+* After the user saves the game and if they score 250 they are brought to this feature to receive the gold medal.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_2/pages/trophy-gold.html)
+
+### Trophy Silver Page
+
+![Trophy Silver Page](./assets/images/readme/trophy-silver-page.png)
+
+* After the user saves the game and if they score 225 they are brought to this feature to receive the silver medal.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_2/pages/trophy-silver.html)
+
+### Trophy Bronze Page
+
+![Trophy Bronze Page](./assets/images/readme/trophy-bronze-page.png)
+
+* After the user saves the game and if they score 200 they are brought to this feature to receive the bronze medal.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_2/pages/trophy-bronze.html)
+
+### High Scores Page
+
+![HighScores Page](./assets/images/readme/scores-page.png)
+
+* In the High Scores feature users can check the best scores by the individual players.<br>
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_2/pages/scores.html)
+
+## Future Features
+  
+### Progress Bar Right/Wrong Answers
+
+* I am planning to add a feature with two progress bars.  One progress bar to show the number of right answers and the other to show the number of wrong answers in the last game played.
 
