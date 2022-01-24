@@ -31,7 +31,7 @@ Quiz Land is a quiz game that allows players to test their knowledge in differen
     * [Trophy Gold Page](#trophy-gold-page)
     * [Trophy Silver Page](#trophy-silver-page)
     * [Trophy Bronze Page](#trophy-bronze-page)
-    * [High Scores Page](#hign-scores-page)
+    * [High Scores Page](#high-scores-page)
 * [Future Features](#future-features)
 * [How to Play](#how-to-play)
 * [Technologies Used](#technologies-used)
