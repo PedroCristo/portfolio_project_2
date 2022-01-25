@@ -3,9 +3,7 @@
  ********* GAME END  ***********
  *******************************/
 
-
 // Declare const for DOM elements 
-
 
  const username = document.getElementById('username');
  const finalScore = document.getElementById('final-score');
@@ -22,11 +20,9 @@
 });
 
 
-
 // Show to the users the last score 
  
  finalScore.innerText = lastScore;
-
 
 
 // Save users last score and username
