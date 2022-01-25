@@ -5,7 +5,7 @@ Project milestone 2 for Code Institute Full-stack development program: JavaScrip
 
 Quiz Land is a quiz game that allows players to test their knowledge in different topics. In Quiz Land there are 3 different quizzes available and it has 10 questions for each topic. If the user can answer the question correctly they will receive points. Quiz Land is a good way to have fun and also to learn while playing a game.
 
-[Live Project Here](https://pedrocristo.github.io/portfolio_project_1/index.html)
+[Live Project Here](https://pedrocristo.github.io/portfolio_project_2/index.html)
 
 <p align="center"><img src="./assets/images/readme/quiz-land-responsiveness.png" alt="Quiz Land webpage on multiple devices"></p>
 
@@ -233,7 +233,7 @@ On the top right the users can check at any time what quiz they are on [6].
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ### [W3C Markup Validator](https://validator.w3.org)
-* All HTML files were validated through the W3C Validator, presenting no errors.
+* The HTML files were validated through the W3C Validator, presenting no errors.
 #### Results:
 * [HomePage](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Findex.html)
 * [Game 1](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fpages%2Fgame-1.html)
@@ -247,7 +247,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   
 
 ### [W3C CSS Validator](https://jigsaw.w3.org/css-validator) 
-* The CSS file was validated though the Jigsaw W3C Validator, presenting no errors.
+* The CSS files were validated though the Jigsaw W3C Validator, presenting no errors.
 #### Results:
 * [Main CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fassets%2Fcss%2Fmain.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 * [Responsive CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpedrocristo.github.io%2Fportfolio_project_2%2Fassets%2Fcss%2Fresponsive.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
