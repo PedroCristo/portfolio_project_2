@@ -109,16 +109,19 @@ function getNewQuestion() {
  
      if (selectedAnswer == currentQuestion.correctAnswer ) {
       incrementScore(CORRECT_QUESTION);
-
+        
         question.innerHTML = rightAnswerReply;
         question.classList.add('correct-text');
 
       } else {
  
-       question.classList.add('incorrect-text');
-       selectedChoice.parentElement.classList.add(classToApply);
-     }
- 
+         question.innerHTML = wrongAnswerReply;
+         question.classList.add('incorrect-text');
+
+      }
+
+      selectedChoice.parentElement.classList.add(classToApply);
+       
      // Set the time out that user will see the reply message back after answered a question
      
      setTimeout(() => {
