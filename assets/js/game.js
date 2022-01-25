@@ -102,7 +102,6 @@ function getNewQuestion() {
      
     // Array of available wrong answer message reply back to the user 
  
- 
      let wrongAnswerReply = ['WRONG ANSWER!', 'WRONG ANSWER! TRY AGAIN!', 'WRONG ANSWER! ARE YOU WELL TODAY?'];
      const wrongAnswerReplyIndex = Math.floor(Math.random() * wrongAnswerReply.length);
      wrongAnswerReply = wrongAnswerReply[wrongAnswerReplyIndex];
@@ -111,37 +110,15 @@ function getNewQuestion() {
      if (selectedAnswer == currentQuestion.correctAnswer ) {
       incrementScore(CORRECT_QUESTION);
 
-      if (questionCounter <= 2){
-
-        question.innerHTML = 'RIGHT ANSWER!';
-
-      } else if (questionCounter ==  MAX_NUMBER_QUESTIONS ) {
-        question.innerHTML = 'YOUR ANSWER IS RIGHT! WELL DONE!';
- 
-      } else {
-        
         question.innerHTML = rightAnswerReply;
-      }
- 
         question.classList.add('correct-text');
+
+      } else {
  
-     } else {
- 
-       if(questionCounter ==  MAX_NUMBER_QUESTIONS  || questionCounter <= 2) {
-         question.innerHTML = 'WRONG ANSWER!';
- 
-       } else {
-         
-         question.innerHTML = wrongAnswerReply;
-       }
-       
        question.classList.add('incorrect-text');
+       selectedChoice.parentElement.classList.add(classToApply);
      }
  
-       selectedChoice.parentElement.classList.add(classToApply);
-   
-
-    
      // Set the time out that user will see the reply message back after answered a question
      
      setTimeout(() => {
