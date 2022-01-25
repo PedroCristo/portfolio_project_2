@@ -6,11 +6,12 @@
 
 // Declare const for DOM elements 
 
+
  const username = document.getElementById('username');
  const finalScore = document.getElementById('final-score');
  const lastScore = localStorage.getItem('lastScore');
  const saveScore = document.getElementById('save-score');
- 
+
  const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
 
@@ -41,20 +42,24 @@
     highScores.sort((a, b) => b.score - a.score);
     highScores.splice(6);
 
+    
+    // Brings the user to the right page depends on the score made by the user in the last game played
 
-// Brings the user to the right page depends on the score made by the user in the last game played
+    const GOLD_TROPHY_SCORE =  MAX_NUMBER_QUESTIONS  * CORRECT_QUESTION;
+    const SILVER_TROPHY_SCORE = ( MAX_NUMBER_QUESTIONS  - 1) * CORRECT_QUESTION;
+    const BRONZE_TROPHY_SCORE = ( MAX_NUMBER_QUESTIONS  - 2) * CORRECT_QUESTION;
 
 
-     if (lastScore == 250) {
+     if (lastScore == GOLD_TROPHY_SCORE) {
 
         window.location.assign('trophy-gold.html');
 
-    } else if (lastScore == 225) {
+    } else if (lastScore == SILVER_TROPHY_SCORE) {
       
         window.location.assign('trophy-silver.html');
 
 
-    } else if (lastScore == 200) {
+    } else if (lastScore == BRONZE_TROPHY_SCORE) {
 
         window.location.assign('trophy-bronze.html');
 
