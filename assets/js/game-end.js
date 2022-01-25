@@ -45,7 +45,6 @@
     const SILVER_TROPHY_SCORE = ( MAX_NUMBER_QUESTIONS  - 1) * CORRECT_QUESTION;
     const BRONZE_TROPHY_SCORE = ( MAX_NUMBER_QUESTIONS  - 2) * CORRECT_QUESTION;
 
-
      if (lastScore == GOLD_TROPHY_SCORE) {
 
         window.location.assign('trophy-gold.html');

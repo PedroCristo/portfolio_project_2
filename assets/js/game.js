@@ -11,7 +11,6 @@
  const scoreText = document.getElementById('score');
  const progressBarFull = document.getElementById('progress-bar-full');
 
- 
  let currentQuestion = {};
  let score = 0;
  let questionCounter = 0;
@@ -19,13 +18,11 @@
  let quizQuestions = [];
  let time = 2000;
  
- 
 // Constants with the value of correct questions points and number of max questions per quiz 
   
  const CORRECT_QUESTION = 25;
  const MAX_NUMBER_QUESTIONS = 10;
  
-
 // Start a new game
   
   function newGame(category) {
@@ -79,7 +76,6 @@ function getNewQuestion() {
 
  };
  
-   
     // Compare the answer chosen by the user with the right answer if true the user will see a message in green if wrong the message will be in red
  
  choices.forEach(choice => {
@@ -132,8 +128,7 @@ function getNewQuestion() {
      }, time);
    });
  });
- 
-  
+
    // Update and shows the user the score
  
  function incrementScore(num){
