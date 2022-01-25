@@ -22,8 +22,8 @@
  
 // Constants with the value of correct questions points and number of max questions per quiz 
   
- const correctQuestion = 25;
- const maxNumberQuestions = 10;
+ const CORRECT_QUESTION = 25;
+ const MAX_NUMBER_QUESTIONS = 10;
  
 
 // Start a new game
@@ -40,7 +40,7 @@
   
 function getNewQuestion() {
       localStorage.setItem('lastScore', score);
-   if (availableQuestions.length === 0 || questionCounter >= maxNumberQuestions) {
+   if (availableQuestions.length === 0 || questionCounter >= MAX_NUMBER_QUESTIONS ) {
  
      
     //Brings the user to the game end page after the quiz is finished
@@ -52,12 +52,12 @@ function getNewQuestion() {
    //Shows the user the number of question is answering
  
    questionCounter++;
-   progressText.innerText ='Question ' +  questionCounter + '/' + maxNumberQuestions;
+   progressText.innerText ='Question ' +  questionCounter + '/' +  MAX_NUMBER_QUESTIONS ;
  
    
    //Update the progress any time the user answer a question
    
-   progressBarFull.style.width = `${(questionCounter / maxNumberQuestions) * 100}%`;
+   progressBarFull.style.width = `${(questionCounter /  MAX_NUMBER_QUESTIONS ) * 100}%`;
  
    
    // Update the question to show the user after last question is answered
@@ -109,13 +109,13 @@ function getNewQuestion() {
    
  
      if (selectedAnswer == currentQuestion.correctAnswer ) {
-      incrementScore(correctQuestion);
+      incrementScore(CORRECT_QUESTION);
 
       if (questionCounter <= 2){
 
         question.innerHTML = 'RIGHT ANSWER!';
 
-      } else if (questionCounter == maxNumberQuestions) {
+      } else if (questionCounter ==  MAX_NUMBER_QUESTIONS ) {
         question.innerHTML = 'YOUR ANSWER IS RIGHT! WELL DONE!';
  
       } else {
@@ -127,7 +127,7 @@ function getNewQuestion() {
  
      } else {
  
-       if(questionCounter == maxNumberQuestions || questionCounter <= 2) {
+       if(questionCounter ==  MAX_NUMBER_QUESTIONS  || questionCounter <= 2) {
          question.innerHTML = 'WRONG ANSWER!';
  
        } else {
