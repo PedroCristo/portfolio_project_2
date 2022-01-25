@@ -127,20 +127,20 @@ The Quiz Land is a nine page website that has been designed to look like an appl
 
 ### Quiz Game 1 - Sports
 
-![Quiz Game 1](./assets/images/readme/quiz-page.png)
+![Quiz Game 1](./assets/images/readme/quiz-page-sports.png)
 * All of the game happens in this feature. Here the users will see the questions and they have 4 choices as their answer. The player will choose one and will see if the answer given is right or wrong. 
 The topic questions in Quiz 1 are Sports. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-1.html)
 
 ### Quiz Game 2 - History
 
-![Quiz Game 2](./assets/images/readme/quiz-page.png)
+![Quiz Game 2](./assets/images/readme/quiz-page-history.png)
 * This feature has the same purpose as Quiz 1 but here the topic questions are History. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-2.html)
 
 ### Quiz Game 3 - Geography
 
-![Quiz Game 3](./assets/images/readme/quiz-page.png)
+![Quiz Game 3](./assets/images/readme/quiz-page-geography.png)
 * This feature has the same purpose as Quiz 1 and Quiz 2 but here the topic questions are Georaphy. <br>
 [Live Page Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-3.html)
 
