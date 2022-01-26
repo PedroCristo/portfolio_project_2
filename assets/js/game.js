@@ -10,7 +10,6 @@
  const progressText = document.getElementById('progress-text');
  const scoreText = document.getElementById('score');
  const progressBarFull = document.getElementById('progress-bar-full');
- const getQuizBtn = document.getElementById('get-quiz-btn');
 
  let currentQuestion = {};
  let score = 0;
@@ -137,18 +136,6 @@ function getNewQuestion() {
    scoreText.innerText = score;
  }
  
-
- // Get an random quiz to play
-
- getQuizBtn.addEventListener('click', () => {
-    
-  let quizPageArray = ['pages/game-1.html', 'pages/game-2.html', 'pages/game-3.html'];
-  const QUIZ_PAGE_ARRAY_INDEX = Math.floor(Math.random() * quizPageArray.length);
-  quizPageArray = quizPageArray[QUIZ_PAGE_ARRAY_INDEX];
-
-  return window.location.assign(quizPageArray);
-  
-});
 
 
 
