@@ -186,6 +186,12 @@ The topic questions in Quiz 1 are Sports. <br>
 * I am planning to add a feature with two progress bars.  One progress bar to show the number of right answers and the other to show the number of wrong answers in the last game played.
 
 ## How To Play
+
+#### How to Start 
+![How to Start](./assets/images/readme/start-play-game.png)
+* The player can choose a quiz to play from the menu or start random quiz by pressing the button Let's Play in the Homepage.
+
+#### The Game
 ![How To Play](./assets/images/readme/quiz-page-how-play.png)
 * The player has 3 different quizzes in the game. For each quiz the user will see the question on the top center [2] and 4 choices [3] are available.
 The player then has to choose one of the choices and if the answer is right will win 25 points. The score will be displayed on the bottom right[5]. 
