@@ -1,4 +1,4 @@
- // Select the right questions choose by the user per topic and start new game
+ // Select the right category choose by the user and start new game
   
  document.addEventListener("DOMContentLoaded", () => {
 
