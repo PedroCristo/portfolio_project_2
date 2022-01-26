@@ -189,7 +189,7 @@ The topic questions in Quiz 1 are Sports. <br>
 
 #### How to Start 
 ![How to Start](./assets/images/readme/start-play-game.png)
-* The player can choose a quiz to play from the menu or start random quiz by pressing the button Let's Play in the Homepage.
+* The player can choose a quiz to play from the menu or start a random quiz by pressing the button Let's Play in the Homepage.
 
 #### The Game
 ![How To Play](./assets/images/readme/quiz-page-how-play.png)
@@ -262,8 +262,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * All JavaScript files were validated through JSHint, presenting no errors.
 
 ![Jshint Result](./assets/images/readme/jshint_result.jpg)
-
-  
 
 The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the Huawei P20.
 
@@ -374,7 +372,6 @@ The website development was created in the "main" branch. This branch was deploy
 * [Lovatts & Puzzles](https://lovattspuzzles.com/).
 * [Britannica Quiz](https://www.britannica.com/).
 
-  
 ## Special Thanks
 
  * Special thanks to my mentor Sandeep Aggarwal, Slack Community, Dave Horrocks and Mairéad Gillic for their assistance throughout this project.
