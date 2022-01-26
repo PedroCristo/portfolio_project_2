@@ -32,7 +32,7 @@
     quizQuestions = QUESTIONS_ARRAY[category];
     availableQuestions = [...quizQuestions];
     getNewQuestion();
-  };
+  }
  
 // Get a new question
   
@@ -75,7 +75,7 @@ function getNewQuestion() {
    availableQuestions.splice(questionIndex, 1);
    acceptingAnswers = true;
 
- };
+ }
  
     // Compare the answer chosen by the user with the right answer if true the user will see a message in green if wrong the message will be in red
  
@@ -135,14 +135,14 @@ function getNewQuestion() {
  function incrementScore(num){
    score += num;
    scoreText.innerText = score;
- };
+ }
  
 
  // Get an random quiz to play
 
  getQuizBtn.addEventListener('click', () => {
     
-  let quizPageArray = ['pages/game-1.html', 'pages/game-2.html', 'pages/game-3.html']
+  let quizPageArray = ['pages/game-1.html', 'pages/game-2.html', 'pages/game-3.html'];
   const QUIZ_PAGE_ARRAY_INDEX = Math.floor(Math.random() * quizPageArray.length);
   quizPageArray = quizPageArray[QUIZ_PAGE_ARRAY_INDEX];
 
