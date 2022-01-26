@@ -4,5 +4,8 @@
 
     const quizCategory = document.getElementById('category').dataset.category;
     newGame(quizCategory);
-  })
+  });
 
+
+
+  
