@@ -261,7 +261,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### [Jshint](https://jshint.com/)
 * All JavaScript files were validated through JSHint, presenting no errors.
 
-![Jshint Result](./assets/images/readme/jshint_result.jpg)
+![Jshint Result](./assets/images/readme/jshint_result.png)
 
 The testing was done using the Google Chrome Browser. Chrome Developer Tools was used extensively, particularly to check responsiveness on different screen sizes. Testing was also done using Firefox on desktop, and again on Google Chrome and Opera on the Huawei P20.
 
