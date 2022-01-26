@@ -35,7 +35,7 @@
         </div>
         <div class="text">
             <h3 class="fancy-text">Are You Ready To Play ?</h3>
-            <a href="pages/game-1.html" class="btn" aria-label="Go to the game 1 page to start a game">Let's Play</a>
+            <a class="btn" id="get-quiz-btn" aria-label="Go to a random quiz page to start a game">Let's Play</a>
         </div>
         <ul class="social flex flex-center">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Go to the Facebook game page"><i
@@ -53,9 +53,9 @@
             <i class="fas fa-sun"></i>
         </div>
         <ul>
-            <li><a href="pages/game-1.html" class="btn" aria-label="Go to the game 1 page to start a game" onclick="newGame('sports')">Quiz Sports</a></li>
-            <li><a href="pages/game-2.html" class="btn" aria-label="Go to the game 2 page to start a game" onclick="newGame('history')">Quiz History</a></li>
-            <li><a href="pages/game-3.html" class="btn" aria-label="Go to the game 3 page to start a game" onclick="newGame('geography')">Quiz Geography</a></li>
+            <li><a href="pages/game-1.html" class="btn" aria-label="Go to the game 1 page to start a game">Quiz Sports</a></li>
+            <li><a href="pages/game-2.html" class="btn" aria-label="Go to the game 2 page to start a game">Quiz History</a></li>
+            <li><a href="pages/game-3.html" class="btn" aria-label="Go to the game 3 page to start a game">Quiz Geography</a></li>
             <li><a href="pages/scores.html" aria-label="Go to the best scores page" class="btn">High Scores</a></li>
             <li class="logo-menu text-center">
                 <h3 class="logo">Quiz<span class="interactive-color">Land</span></h3>
@@ -66,8 +66,10 @@
 
 
     <!-- MAIN JS -->
+    <script src="assets/js/game.js"></script>
     <script src="assets/js/script.js"></script>
-    <script type="module" src="assets/js/game.js"></script>
+
+
 
 </body>
 </html>
