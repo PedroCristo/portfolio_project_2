@@ -98,11 +98,10 @@ function getNewQuestion() {
      
     // Array of available wrong answer message reply back to the user 
  
-     let wrongAnswerReply = ['WRONG ANSWER!', 'WRONG ANSWER! TRY AGAIN!', 'WRONG ANSWER! ARE YOU WELL TODAY?'];
+     let wrongAnswerReply = ['WRONG ANSWER!', 'WRONG ANSWER! BETTER LUCK NEXT TIME!', 'WRONG ANSWER! ARE YOU WELL TODAY?'];
      const wrongAnswerReplyIndex = Math.floor(Math.random() * wrongAnswerReply.length);
      wrongAnswerReply = wrongAnswerReply[wrongAnswerReplyIndex];
    
- 
      if (selectedAnswer == currentQuestion.correctAnswer ) {
       incrementScore(CORRECT_QUESTION);
         
