@@ -88,37 +88,47 @@ function getNewQuestion() {
      const classToApply =
      selectedAnswer == currentQuestion.correctAnswer ? 'correct' : 'incorrect';
  
-     
+   
     // Array of available right answer message reply back to the user
      
      let rightAnswerReply = ['YOUR ANSWER IS RIGHT! WELL DONE!', 'RIGHT ANSWER!', 'RIGHT ANSWER! YOU ARE DOING WELL!'];
      const rightAnswerReplyIndex = Math.floor(Math.random() * rightAnswerReply.length);
-     rightAnswerReply = rightAnswerReply[rightAnswerReplyIndex];
+     const rightAnswerReplyRondom = rightAnswerReply[rightAnswerReplyIndex];
  
      
     // Array of available wrong answer message reply back to the user 
  
      let wrongAnswerReply = ['WRONG ANSWER!', 'WRONG ANSWER! BETTER LUCK NEXT TIME!', 'WRONG ANSWER! ARE YOU WELL TODAY?'];
      const wrongAnswerReplyIndex = Math.floor(Math.random() * wrongAnswerReply.length);
-     wrongAnswerReply = wrongAnswerReply[wrongAnswerReplyIndex];
+     const wrongAnswerReplyRandom = wrongAnswerReply[wrongAnswerReplyIndex];
+     selectedChoice.parentElement.classList.add(classToApply);
    
      if (selectedAnswer == currentQuestion.correctAnswer ) {
-      incrementScore(CORRECT_QUESTION);
-        
-        question.innerHTML = rightAnswerReply;
-        question.classList.add('correct-text');
+         incrementScore(CORRECT_QUESTION);
 
-      } else {
- 
-         question.innerHTML = wrongAnswerReply;
-         question.classList.add('incorrect-text');
-         
-        }
+           if (questionCounter <= 2){
+               question.innerHTML = rightAnswerReply[1];
+            } 
+            else if (questionCounter ==  MAX_NUMBER_QUESTIONS){
+              question.innerHTML = rightAnswerReply[0];
+            } 
+            else {
+               question.innerHTML = rightAnswerReplyRondom;
+      }
+               question.classList.add('correct-text');
+     } 
+     else {
+            if(questionCounter ==  MAX_NUMBER_QUESTIONS  || questionCounter <= 2) {
+               question.innerHTML = wrongAnswerReply[0];
+            } 
+            else {
+                question.innerHTML = wrongAnswerReplyRandom;
+            }
+            question.classList.add('incorrect-text');
+    }  
 
-      selectedChoice.parentElement.classList.add(classToApply);
-       
      // Set the time out that user will see the reply message back after answered a question
-     
+
      setTimeout(() => {
        selectedChoice.parentElement.classList.remove(classToApply);
        question.classList.remove('correct-text');
@@ -135,6 +145,7 @@ function getNewQuestion() {
    scoreText.innerText = score;
  }
  
+
 
 
 
