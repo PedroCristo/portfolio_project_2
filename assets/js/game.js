@@ -16,7 +16,7 @@
  let questionCounter = 0;
  let availableQuestions = [];
  let quizQuestions = [];
- let time = 2000;
+ let time = 2200;
  
 // Constants with the value of correct questions points and number of max questions per quiz 
   
