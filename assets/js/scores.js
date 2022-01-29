@@ -14,15 +14,15 @@
  
 highScoresList.innerHTML = highScores
 .map(score => {
-  if (score.score == 250) {
+  if (score.score == GOLD_TROPHY_SCORE) {
 
     return `<li class="high-score">${score.name} - ${score.score} - <i class="fas fa-medal gold-color"></i></li>`;
     
-  } else if (score.score == 225) {
+  } else if (score.score == SILVER_TROPHY_SCORE) {
 
     return `<li class="high-score">${score.name} - ${score.score} - <i class="fas fa-medal silver-color"></i></li>`;
 
-  } else if (score.score == 200) {
+  } else if (score.score == BRONZE_TROPHY_SCORE) {
     
     return `<li class="high-score">${score.name} - ${score.score} - <i class="fas fa-medal bronze-color"></i></li>`;
 
