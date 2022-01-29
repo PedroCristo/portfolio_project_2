@@ -18,10 +18,6 @@
  let quizQuestions = [];
  let time = 2200;
  
-// Constants with the value of correct questions points and number of max questions per quiz 
-  
-
- 
 // Start a new game
   
   function newGame(category) {
