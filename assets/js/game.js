@@ -20,8 +20,7 @@
  
 // Constants with the value of correct questions points and number of max questions per quiz 
   
- const CORRECT_QUESTION = 25;
- const MAX_NUMBER_QUESTIONS = 10;
+
  
 // Start a new game
   
@@ -36,7 +35,7 @@
 // Get a new question
   
 function getNewQuestion() {
-      localStorage.setItem('lastScore', score);
+   localStorage.setItem('lastScore', score);
    if (availableQuestions.length === 0 || questionCounter >= MAX_NUMBER_QUESTIONS ) {
  
      
