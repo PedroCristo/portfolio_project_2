@@ -1,6 +1,11 @@
-
-
+/*******************************
+ ******* QUESTIONS ARRAY *******
+ *******************************/
+/**
+ * Questions array for the 3 quizzes available in the game 
+ * */
  const QUESTIONS_ARRAY = {
+        // Array for the sporst quiz
         'sports': [
                  {
                       question: 'On June 3, 2016, this heavyweight boxer, known as “the Greatest,” died at age 74.',
@@ -84,7 +89,7 @@
                     }
                 
         ],
-    
+        // Array for the history quiz
         'history': [
             {
                 question: 'Until 1867, which country was under the control of military leaders called Shoguns?',
@@ -167,7 +172,7 @@
                 correctAnswer: 4
               }
         ],
-        
+        // Array for the geography quiz
         'geography': [
             {
                 question: 'What is the official language of Barbados?',
@@ -249,7 +254,6 @@
                 choice4: 'America',
                 correctAnswer: 2
               }
-    
         ],
     };  
 
