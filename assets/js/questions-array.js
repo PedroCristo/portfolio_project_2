@@ -116,7 +116,7 @@
                 correctAnswer: 2
               },
                 {
-                question: 'The mother of George VI was WHO?',
+                question: 'The mother of George VI was who?',
                 choice1: 'Queen Alexandra',
                 choice2: 'Queen Caroline',
                 choice3: 'Queen Mary',
@@ -183,7 +183,7 @@
                 correctAnswer: 4
               },
               {
-                question: 'In WHICH state is the Australian city of Townsville?',
+                question: 'In which state is the Australian city of Townsville?',
                 choice1: 'Queensland',
                 choice2: 'Tasmania',
                 choice3: 'New South Wales',
@@ -199,7 +199,7 @@
                 correctAnswer: 2
               },
                 {
-                question: 'Mesopotamia is now called WHAT?',
+                question: 'Mesopotamia is now called what?',
                 choice1: 'Sri Lanka',
                 choice2: 'Palestine',
                 choice3: 'Thailand',
