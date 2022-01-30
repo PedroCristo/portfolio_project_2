@@ -7,9 +7,7 @@ const username = document.getElementById('username');
 const finalScore = document.getElementById('final-score');
 const lastScore = localStorage.getItem('lastScore');
 const saveScore = document.getElementById('save-score');
-
 const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
-
 
 /**
  * Enable the button when the user remove the cursor from the input
@@ -57,5 +55,4 @@ saveHighScore = (e) => {
     }
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
-
 };
