@@ -1,6 +1,5 @@
 
 // Toggler menu
-
  const menuToggle = document.querySelector('.toggler');
  const heroSection = document.querySelector('.hero-section');
  const openMenu = document.querySelector('.fa');
@@ -9,18 +8,18 @@
  
  
  menuToggle.addEventListener('click', () => {
-       
+
      menuToggle.classList.toggle('active');
      heroSection.classList.toggle('active');
      openMenu.classList.toggle('active');
      closeMenu.classList.toggle('active');
      menuLeft.classList.toggle('active');
+     
  });
 
 
 
 // Change background color (onload) menu day/night mode
-
  const getDate = new Date();
  const timeHour = getDate.getHours();
  const faMoon = document.querySelector('.fa-moon');

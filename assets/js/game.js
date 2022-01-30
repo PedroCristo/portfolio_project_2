@@ -132,17 +132,19 @@ choices.forEach(choice => {
   });
 });
 
- // Update and shows the user the score
+ /**
+  * Update and shows the user the score
+  * */ 
 function incrementScore(num){
   score += num;
   scoreText.innerText = score;
 }
 
 
- // Select the right category choose by the user and start new game
-  
+ /**
+  * Select the right category choose by the user and start new game
+  * */
  document.addEventListener("DOMContentLoaded", () => {
-
   const quizCategory = document.getElementById('category').dataset.category;
   newGame(quizCategory);
 });
