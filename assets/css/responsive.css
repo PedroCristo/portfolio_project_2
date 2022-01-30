@@ -1,6 +1,6 @@
-  /*###############################
-  ######### MEDIA QUERIES #########
-  ###############################*/
+    /*******************************
+    ******** MEDIA QUERIES *********
+    *******************************/
 
   @media screen and (min-width: 1000px) and (max-width: 1400px) {
     /*******************************
@@ -8,7 +8,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section #scoreboard .progress-bar {
       height: 25px;
       margin: 85px 0 35px;
@@ -86,7 +85,7 @@
         margin-bottom: 5px;
         font-size: 1.3rem;
       }
-}
+   }
 
 @media screen and (max-width: 798px) {
     /*******************************
@@ -219,7 +218,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .choice-container {
       height: 50px;
     }
@@ -268,12 +266,12 @@
       top: 30px;
       left: 12px;
   }
+
     /*******************************
     *                              *
     *          HOME PAGE           *
     *                              *
     *******************************/
-  
     #menu .logo-menu .logo {
       margin-top: 10px;
     }
@@ -285,14 +283,13 @@
     *           HOME PAGE          *
     *                              *
     *******************************/
-
     #hero-section .social {
       bottom: 20px;
     }
-    
   }
-
-  /* MEDIA QUERIES LANDSCAPE */
+    /*******************************
+    **** LANDSCAPE ORIENTATION *****
+    *******************************/
 
   @media screen and (max-width: 768px) and (min-width:768px) and (max-height: 320px) and (min-height:320px) {
     /*******************************
@@ -300,7 +297,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section #scoreboard .progress-bar {
       height: 15px!important;
       margin: 60px 0 15px!important;
@@ -333,7 +329,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-
     #game-section #scoreboard .progress-bar {
       height: 20px;
       margin: 125px 0 15px;
@@ -347,7 +342,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-
     .logo {
       font-size: 1rem;
     }
@@ -357,7 +351,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -400,7 +393,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-
     .logo {
       font-size: 1rem;
     }
@@ -410,7 +402,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -457,7 +448,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1rem;
     }
@@ -467,7 +457,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -510,7 +499,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1rem;
     }
@@ -520,7 +508,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -562,7 +549,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1rem;
     }
@@ -572,7 +558,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -615,7 +600,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1rem;
     }
@@ -625,7 +609,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -672,7 +655,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1rem;
     }
@@ -682,7 +664,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -725,7 +706,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1rem;
     }
@@ -735,7 +715,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -782,7 +761,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1rem;
     }
@@ -792,7 +770,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -841,7 +818,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1rem;
     }
@@ -851,7 +827,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -866,7 +841,6 @@
         margin: 17px 0 -29px;
     }
     
-  
     #game-section .choice-container {
       height: 25px;
     }
@@ -899,7 +873,6 @@
     *        SCORES PAGE           *
     *                              *
     *******************************/
-  
     #scores-page .highscores-box {
       margin: -10px;
       padding: 15px 40px;
@@ -922,7 +895,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1.2rem;
     }
@@ -932,7 +904,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .header h4 {
       font-size: 1rem;
     }
@@ -970,7 +941,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section .choice-container {
       height: 30px;
     }
@@ -986,7 +956,6 @@
     *        SCORES PAGE           *
     *                              *
     *******************************/
-  
     #scores-page .highscores-box {
       margin: -10px;
     }
@@ -999,7 +968,6 @@
     *        GENERAL STYLES        *
     *                              *
     *******************************/
-  
     .logo {
       font-size: 1.2rem;
     }
@@ -1009,7 +977,6 @@
     *          QUIZ PAGE           *
     *                              *
     *******************************/
-  
     #game-section #scoreboard .progress-bar {
       height: 25px;
       margin: 80px 0 -10px;
@@ -1042,7 +1009,7 @@
   }
   
 
-  
+
  
   
   
