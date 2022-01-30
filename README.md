@@ -107,14 +107,14 @@ The Quiz Land is a nine page website that has been designed to look like an appl
 ![Home Page](./assets/images/readme/home-page.png)
 
 * When the users reach the website, they are instantly greeted on the Homepage and they have access to the button to start playing immmediately. Also there is a sidebar opening by pressing the hamburger icon on the top right, here users can start to play but they can also choose a different quiz or just check the High Scores board. On the bottom right side the players can access the game's official social media pages.<br>
-[Live Page Here](https://pedrocristo.github.io/portfolio_project_2/index.html)
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_2/index.html)
 
 ### Navigation Menu
 
 #### Side Navigation Menu Desktop
 ![Side Navigation Menu](./assets/images/readme/desktop-side-menu.png)
 * At the top right of the website, users can find a hamburger menu that is fully responsive in all devices. In this navigation menu users can navigate to the different quizzes and also check the High Scores board.<br>
-* 
+  
   #### Side Navigation Menu Tablet
 ![Side Navigation Menu Tablet](./assets/images/readme/tablet-side-menu.png)<br>
 
@@ -130,19 +130,19 @@ The Quiz Land is a nine page website that has been designed to look like an appl
 ![Quiz Game 1](./assets/images/readme/quiz-page-sports.png)
 * All of the game happens in this feature. Here the users will see the questions and they have 4 choices as their answer. The player will choose one and will see if the answer given is right or wrong. 
 The topic questions in Quiz 1 are Sports. <br>
-[Live Page Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-1.html)
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-1.html)
 
 ### Quiz History
 
 ![Quiz Game 2](./assets/images/readme/quiz-page-history.png)
 * This feature has the same purpose as Quiz 1 but here the topic questions are History. <br>
-[Live Page Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-2.html)
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-2.html)
 
 ### Quiz Geography
 
 ![Quiz Game 3](./assets/images/readme/quiz-page-geography.png)
 * This feature has the same purpose as Quiz 1 and Quiz 2 but here the topic questions are Georaphy. <br>
-[Live Page Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-3.html)
+[Live Feature Here](https://pedrocristo.github.io/portfolio_project_2/pages/game-3.html)
 
 ### Game End Page
 
