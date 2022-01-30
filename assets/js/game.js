@@ -1,5 +1,5 @@
 /*******************************
- ********** GAME *************
+ ********** GAME ***************
  *******************************/
 
 // Declare const and variables for DOM elements 
@@ -33,29 +33,24 @@ let time = 2200;
 function getNewQuestion() {
  localStorage.setItem('lastScore', score);
  if (availableQuestions.length === 0 || questionCounter >= MAX_NUMBER_QUESTIONS ) {
-
-    
+ 
  //Brings the user to the game end page after the quiz is finished
   return window.location.assign('game-end.html');
 }
-
 
  //Shows the user the number of question is answering
   questionCounter++;
   progressText.innerText ='Question ' +  questionCounter + '/' +  MAX_NUMBER_QUESTIONS ;
 
-  
  //Update the progress any time the user answer a question
   progressBarFull.style.width = `${(questionCounter /  MAX_NUMBER_QUESTIONS ) * 100}%`;
 
-  
  // Update the question to show the user after last question is answered
    
   const questionIndex = Math.floor(Math.random() * availableQuestions.length);
   currentQuestion = availableQuestions[questionIndex];
   question.innerText = currentQuestion.question;
   
-   
  // Update the answers to show the user after last question is answered
   choices.forEach(choice => {
     const choiceNumber = choice.dataset.choice;
@@ -139,7 +134,6 @@ function incrementScore(num){
   score += num;
   scoreText.innerText = score;
 }
-
 
  /**
   * Select the right category choose by the user and start new game
