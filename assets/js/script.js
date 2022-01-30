@@ -1,4 +1,6 @@
-
+/*******************************
+ *********** SCRIPT ************
+ *******************************/
 // Declare const and variables for DOM elements (toggler menu)
  const menuToggle = document.querySelector('.toggler');
  const heroSection = document.querySelector('.hero-section');
