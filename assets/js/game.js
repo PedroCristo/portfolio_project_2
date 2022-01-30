@@ -59,7 +59,6 @@ function getNewQuestion() {
 
   availableQuestions.splice(questionIndex, 1);
   acceptingAnswers = true;
-
 }
 
 /**
@@ -75,13 +74,11 @@ choices.forEach(choice => {
     const classToApply =
     selectedAnswer == currentQuestion.correctAnswer ? 'correct' : 'incorrect';
 
-  
    // Array of available right answer message reply back to the user
     let rightAnswerReply = ['YOUR ANSWER IS RIGHT! WELL DONE!', 'RIGHT ANSWER!', 'RIGHT ANSWER! YOU ARE DOING WELL!'];
     const rightAnswerReplyIndex = Math.floor(Math.random() * rightAnswerReply.length);
     const rightAnswerReplyRondom = rightAnswerReply[rightAnswerReplyIndex];
 
-    
    // Array of available wrong answer message reply back to the user 
     let wrongAnswerReply = ['WRONG ANSWER!', 'WRONG ANSWER! BETTER LUCK NEXT TIME!', 'WRONG ANSWER! ARE YOU WELL TODAY?'];
     const wrongAnswerReplyIndex = Math.floor(Math.random() * wrongAnswerReply.length);
@@ -105,6 +102,7 @@ choices.forEach(choice => {
               question.classList.add('correct-text');
 
     } else {
+
            if(questionCounter ==  MAX_NUMBER_QUESTIONS  || questionCounter <= 2) {
 
               question.innerHTML = wrongAnswerReply[0];

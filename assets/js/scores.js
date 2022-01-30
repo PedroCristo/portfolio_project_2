@@ -2,13 +2,10 @@
  *********** SCORES ************
  *******************************/
 
- 
 // Declare const for DOM elements 
   const highScoresList = document.getElementById('highScoresList');
   const highScores = JSON.parse(localStorage.getItem('highScores')) || [];
 
-  
-  
 /**
  * Show to the users the highscores board returning a list with username, score and medal if the user get a score over 199
  * */ 
