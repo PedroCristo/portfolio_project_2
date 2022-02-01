@@ -1,6 +1,7 @@
 /*******************************
  *********** SCRIPT ************
  *******************************/
+
 // Declare const and variables for DOM elements (toggler menu)
  const menuToggle = document.querySelector('.toggler');
  const heroSection = document.querySelector('.hero-section');
@@ -14,7 +15,7 @@
  menuToggle.addEventListener('click', () => {
 
      menuToggle.classList.toggle('active');
-     heroSection.classList.toggle('active');
+     heroSection.classList.toggle('active');-
      openMenu.classList.toggle('active');
      closeMenu.classList.toggle('active');
      menuLeft.classList.toggle('active');

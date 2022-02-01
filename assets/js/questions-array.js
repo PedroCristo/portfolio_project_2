@@ -1,6 +1,7 @@
 /*******************************
  ******* QUESTIONS ARRAY *******
  *******************************/
+
 /**
  * Questions array for the 3 quizzes available in the game 
  * */
