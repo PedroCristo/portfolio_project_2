@@ -63,7 +63,7 @@ function getNewQuestion() {
 
 /**
 * Compare the answer chosen by the user with the right answer if true the user will see a message in green if wrong the message will be in red
-*  */ 
+* */ 
 choices.forEach(choice => {
   choice.addEventListener('click', e => {
     if (!acceptingAnswers) return;
@@ -75,12 +75,16 @@ choices.forEach(choice => {
     selectedAnswer == currentQuestion.correctAnswer ? 'correct' : 'incorrect';
 
    // Array of available right answer message reply back to the user
-    let rightAnswerReply = ['YOUR ANSWER IS RIGHT! WELL DONE!', 'RIGHT ANSWER!', 'RIGHT ANSWER! YOU ARE DOING WELL!'];
+    let rightAnswerReply = ['YOUR ANSWER IS RIGHT! WELL DONE!',
+                            'RIGHT ANSWER!', 
+                            'RIGHT ANSWER! YOU ARE DOING WELL!'];
     const rightAnswerReplyIndex = Math.floor(Math.random() * rightAnswerReply.length);
     const rightAnswerReplyRondom = rightAnswerReply[rightAnswerReplyIndex];
 
    // Array of available wrong answer message reply back to the user 
-    let wrongAnswerReply = ['WRONG ANSWER!', 'WRONG ANSWER! BETTER LUCK NEXT TIME!', 'WRONG ANSWER! ARE YOU WELL TODAY?'];
+    let wrongAnswerReply = ['WRONG ANSWER!',
+                            'WRONG ANSWER! BETTER LUCK NEXT TIME!',
+                            'WRONG ANSWER! ARE YOU WELL TODAY?'];
     const wrongAnswerReplyIndex = Math.floor(Math.random() * wrongAnswerReply.length);
     const wrongAnswerReplyRandom = wrongAnswerReply[wrongAnswerReplyIndex];
     selectedChoice.parentElement.classList.add(classToApply);
@@ -97,8 +101,9 @@ choices.forEach(choice => {
              question.innerHTML = rightAnswerReply[0];
 
            } else {
+
               question.innerHTML = rightAnswerReplyRondom;
-     }
+           }
               question.classList.add('correct-text');
 
     } else {
@@ -140,3 +145,5 @@ function incrementScore(num){
   const quizCategory = document.getElementById('category').dataset.category;
   newGame(quizCategory);
 });
+
+console.log(currentQuestion.correctAnswer );
