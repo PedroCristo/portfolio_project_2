@@ -2,7 +2,7 @@
  *********** SCRIPT ************
  *******************************/
 
-// Declare const and variables for DOM elements (toggler menu)
+// Declare const for DOM elements (toggler menu)
  const menuToggle = document.querySelector('.toggler');
  const heroSection = document.querySelector('.hero-section');
  const openMenu = document.querySelector('.fa');
@@ -22,7 +22,7 @@
 
  });
 
-// Declare const and variables for DOM elements (day/night mode)
+// Declare const for DOM elements (day/night mode)
  const getDate = new Date();
  const timeHour = getDate.getHours();
  const faMoon = document.querySelector('.fa-moon');
