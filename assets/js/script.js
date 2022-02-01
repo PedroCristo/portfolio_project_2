@@ -22,7 +22,6 @@
 
  });
 
-
 // Declare const and variables for DOM elements (day/night mode)
  const getDate = new Date();
  const timeHour = getDate.getHours();

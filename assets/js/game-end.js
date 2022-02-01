@@ -16,7 +16,6 @@ username.addEventListener('keyup', () => {
     saveScore.disabled = !username.value;
 });
 
-
 // Show to the users the last score 
 finalScore.innerText = lastScore;
 
