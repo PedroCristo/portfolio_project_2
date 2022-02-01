@@ -2,7 +2,7 @@
  ********* GET GAME ************
  *******************************/
 
- // Declare const and for DOM element 
+ // Declare const for DOM element 
  const getQuizBtn = document.getElementById('get-quiz-btn');
 
 /**
